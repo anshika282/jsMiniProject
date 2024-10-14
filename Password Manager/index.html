@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">PM</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>A password manager is a tool designed to store and manage your passwords in a secure and encrypted way. Users only need to remember one master password to access the password manager, which then handles the rest. Password managers can generate strong, unique passwords for every site or service, reducing the risk of security breaches caused by reused or weak passwords. </p>
+        <h2>Your Password</h2>
+        <table>
+            <tr>
+                <th>Website </th>
+                <th>Username </th>
+                <th>Username </th>
+                <th>Actions </th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+        </table>
+        <h2>Add Your Password</h2>
+        <form action="/submit" method="post">
+            <label for="website">Website : </label>
+            <input type="text" id="website" name="website" required/>
+
+            <br><br>
+
+            <label for="username">UserName : </label>
+            <input type="text" id="username" name="username" required/>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required/>
+            <br><br><br>
+            <input class="btn" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+<script src="app.js">
+    </script>
+</html>
