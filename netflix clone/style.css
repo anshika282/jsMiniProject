@@ -20,7 +20,7 @@ body {
     background-color: black;
 }
 
-.box {
+.main .box {
     height: 700px;
     width: 100%;
     opacity: 0.5;
@@ -36,6 +36,7 @@ nav {
     margin: auto;
     height: 30px;
     align-items: center;
+    margin-top: 10px;
 }
 
 nav .nav-buttons {
