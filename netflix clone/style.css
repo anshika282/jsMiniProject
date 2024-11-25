@@ -408,3 +408,68 @@ footer {
 .next-btn {
     right: 10px;
 }
+
+.plans-section{
+    max-width:70vw;
+}
+
+.plans-list{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.plans {
+    flex: 1 1 80px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #f65026, #302b28f7);
+    border-radius: 8px;
+}
+
+.plan-heading{
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+}
+
+.plan-content{
+    font-size:12px;
+    font-weight:bold;
+    color:rgb(121, 121, 121);
+}
+
+.plans-section> :first-child{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width: 786px) {
+    .plans{
+        flex:1 1 calc(50% -20px);
+    }
+   
+    .plan-content {
+        font-size: 10px;
+    }
+
+    .plan-heading{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .plans {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .plan-content {
+        font-size: 8px;
+    }
+
+    .plan-heading{
+        font-size: 10px;
+    }
+    
+}

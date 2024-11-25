@@ -69,6 +69,63 @@
 
     </section>
     <div class="seperation"></div>
+
+    <section class="plans-section">
+        <h2>A plan to suit your needs</h2>
+        <div class="plans-list">
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="seperation"></div>
     <section class="first">
         <div>
             <span>Enjoy on your TV</span>
@@ -241,26 +298,26 @@
 
 
         const prevBtn = document.querySelector('.prev-btn');
-const nextBtn = document.querySelector('.next-btn');
-const cardlist = document.querySelector('.cardlist');
-const cardItems = document.querySelectorAll('.card-item');
+        const nextBtn = document.querySelector('.next-btn');
+        const cardlist = document.querySelector('.cardlist');
+        const cardItems = document.querySelectorAll('.card-item');
 
-let cardWidth = cardItems[0].offsetWidth + 20; // Width of a card + gap between them
-let currentIndex = 0;
+        let cardWidth = cardItems[0].offsetWidth + 20; // Width of a card + gap between them
+        let currentIndex = 0;
 
-prevBtn.addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-    }
-});
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
+        });
 
-nextBtn.addEventListener('click', () => {
-    if (currentIndex < cardItems.length - 1) {
-        currentIndex++;
-        cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
-    }
-});
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < cardItems.length - 1) {
+                currentIndex++;
+                cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
+        });
     </script>
 </body>
 
