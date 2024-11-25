@@ -36,10 +36,12 @@
 
         <div class="seperation"></div>
     </div>
-    <section class="first trending">
+    <section class="trending">
         <!-- <div class="trend-text"> -->
             <span>Enjoy big movies, hit series and more from ₹ 149.</span>
         <!-- </div> -->
+        <div class="card-slider">
+            <button class="prev-btn">←</button>
         <div class="cardlist">
             <div class="card-item">
                 <img src="assests/images/pic2.jpeg"  alt="picture 1 "/>
@@ -61,6 +63,9 @@
             </div>
 
         </div>
+
+        <button class="next-btn">→</button>
+    </div>
 
     </section>
     <div class="seperation"></div>
@@ -233,6 +238,29 @@
                 box.classList.toggle('active');
             });
         });
+
+
+        const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+const cardlist = document.querySelector('.cardlist');
+const cardItems = document.querySelectorAll('.card-item');
+
+let cardWidth = cardItems[0].offsetWidth + 20; // Width of a card + gap between them
+let currentIndex = 0;
+
+prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+    }
+});
+
+nextBtn.addEventListener('click', () => {
+    if (currentIndex < cardItems.length - 1) {
+        currentIndex++;
+        cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+    }
+});
     </script>
 </body>
 

@@ -343,17 +343,28 @@ footer {
 }
 
 .trending .cardlist{
-    display:flex;
+    /* display:flex;
     gap:20px;
     flex-wrap:wrap;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    padding: 0 20px;
+    grid-auto-rows: minmax(200px, auto); */
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
 }
 
 .card-item {
-    border: 10px;
+    /* border: 10px;
     height: 50px;
     width: 30px;
-    overflow: hidden; /*Not overflow the image.*/
+    overflow: hidden;  */
+    flex: 0 0 auto; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden;
 }
 
 .card-item img{
@@ -363,6 +374,37 @@ footer {
 }
 
 .trending {
-    display: flex;
-    justify-content: center;
+    display: grid;
+        justify-content: center;
+        /* max-width: 70vw; */
+        margin: 30px 30px;
+        height: 60vh;
+    
+}
+
+.card-slider {
+    position: relative;
+    width: 100%; /* Full width of the parent container */
+    overflow: hidden;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
 }
