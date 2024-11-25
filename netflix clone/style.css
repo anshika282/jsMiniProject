@@ -31,12 +31,12 @@ body {
 
 nav {
     display: flex;
-    max-width: 80vw;
     justify-content: space-between;
     margin: auto;
     height: 30px;
     align-items: center;
     margin-top: 10px;
+    padding: 0 24px;
 }
 
 nav .nav-buttons {
@@ -122,8 +122,8 @@ nav button {
     color: white;
     padding: 3px 15px;
     font-weight: normal;
-    font-size: 20px;
-    border-radius: 40px;
+    font-size: 15px;
+    border-radius: 10px;
     border: 1px solid red;
 }
 
@@ -334,4 +334,29 @@ footer {
         flex: 1 0 100%;
     }
     
+}
+
+.trending> :nth-child(1){
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.trending .cardlist{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.card-item {
+    border: 10px;
+    height: 50px;
+    width: 30px;
+    overflow: hidden; /*Not overflow the image.*/
+}
+
+.card-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
