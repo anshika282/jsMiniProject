@@ -316,12 +316,6 @@ footer {
         gap: 16px;
     }
 
-    .navButton {
-        font-size: small;
-        width : 50px;
-
-    }
-
     footer {
         max-width: 90vw;
         padding: 75px 0;
@@ -332,4 +326,12 @@ footer {
     }
 
 
+}
+
+@media screen  and (max-width:321px){
+
+    nav{
+        flex-wrap: wrap;
+    }
+    
 }
