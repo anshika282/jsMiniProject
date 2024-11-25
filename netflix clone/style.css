@@ -331,7 +331,7 @@ footer {
 @media screen  and (max-width:321px){
 
     nav{
-        flex-wrap: wrap;
+        flex: 1 0 100%;
     }
     
 }
