@@ -14,7 +14,7 @@
             <nav>
                 <span> <img src="assests/images/logo.svg" height="10" /></span>
 
-                <div class="navButoons">
+                <div class="navButton">
                     <button class="btn">English</button>
                     <button class="btn btn-red">Sign In </button>
                 </div>
@@ -35,8 +35,97 @@
         </div>
 
         <div class="seperation"></div>
-
     </div>
+    <section class="trending">
+        <!-- <div class="trend-text"> -->
+            <span>Enjoy big movies, hit series and more from ₹ 149.</span>
+        <!-- </div> -->
+        <div class="card-slider">
+            <button class="prev-btn">←</button>
+        <div class="cardlist">
+            <div class="card-item">
+                <img src="assests/images/pic2.jpeg"  alt="picture 1 "/>
+            </div>
+            <div class="card-item">
+                <img src="assests/images/pic2.jpeg"  alt="picture 1 "/>
+            </div>
+            <div class="card-item">
+                <img src="assests/images/pic2.jpeg"  alt="picture 1 "/>
+            </div>
+            <div class="card-item">
+                <img src="assests/images/pic2.jpeg"  alt="picture 1 "/>
+            </div>
+            <div class="card-item">
+                <img src="assests/images/pic3.jpeg"  alt="picture 3 "/>
+            </div>
+            <div class="card-item">
+                <img src="assests/images/pic4.jpeg"  alt="picture 4 "/>
+            </div>
+
+        </div>
+
+        <button class="next-btn">→</button>
+    </div>
+
+    </section>
+    <div class="seperation"></div>
+
+    <section class="plans-section">
+        <h2>A plan to suit your needs</h2>
+        <div class="plans-list">
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+            <div class="plans">
+                <span class="plan-heading">Mobile</span>
+                <span class="plan-heading">480p</span>
+
+                <span class="plan-content">&#2713; Fair Video Quality</span>
+                <span class="plan-content">&#2713; For your phone or tablet</span>
+
+                <span class="plan-heading">&#8377; 149/mo</span>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="seperation"></div>
     <section class="first">
         <div>
             <span>Enjoy on your TV</span>
@@ -159,6 +248,10 @@
     </section>
 
     <div class="seperation"></div>
+    <!-- <section>
+
+        </section>
+        <div class="seperation"></div> -->
 
     <footer>
         <div class="foo-quest">
@@ -201,6 +294,29 @@
             box.addEventListener('click', () => {
                 box.classList.toggle('active');
             });
+        });
+
+
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        const cardlist = document.querySelector('.cardlist');
+        const cardItems = document.querySelectorAll('.card-item');
+
+        let cardWidth = cardItems[0].offsetWidth + 20; // Width of a card + gap between them
+        let currentIndex = 0;
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < cardItems.length - 1) {
+                currentIndex++;
+                cardlist.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
         });
     </script>
 </body>

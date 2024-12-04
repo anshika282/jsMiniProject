@@ -20,7 +20,7 @@ body {
     background-color: black;
 }
 
-.box {
+.main .box {
     height: 700px;
     width: 100%;
     opacity: 0.5;
@@ -31,11 +31,12 @@ body {
 
 nav {
     display: flex;
-    max-width: 80vw;
     justify-content: space-between;
     margin: auto;
     height: 30px;
     align-items: center;
+    margin-top: 10px;
+    padding: 0 24px;
 }
 
 nav .nav-buttons {
@@ -47,8 +48,9 @@ nav .nav-buttons {
 nav img {
     color: red;
     position: relative;
-    z-index: 10;
+    z-index: 20;
     width: 100px;
+    height: 30px;
 }
 
 .maintext {
@@ -88,6 +90,10 @@ nav button {
     z-index: 10;
 }
 
+.navButton{
+    
+}
+
 .main-button {
     display: flex;
     align-items: center;
@@ -115,9 +121,10 @@ nav button {
     background-color: red;
     color: white;
     padding: 3px 15px;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 4px;
+    font-weight: normal;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid red;
 }
 
 .main input {
@@ -319,4 +326,150 @@ footer {
     }
 
 
+}
+
+@media screen  and (max-width:321px){
+
+    nav{
+        flex: 1 0 100%;
+    }
+    
+}
+
+.trending> :nth-child(1){
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+.trending .cardlist{
+    /* display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    padding: 0 20px;
+    grid-auto-rows: minmax(200px, auto); */
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card-item {
+    /* border: 10px;
+    height: 50px;
+    width: 30px;
+    overflow: hidden;  */
+    flex: 0 0 auto; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden;
+}
+
+.card-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.trending {
+    display: grid;
+        justify-content: center;
+        /* max-width: 70vw; */
+        margin: 30px 30px;
+        height: 60vh;
+    
+}
+
+.card-slider {
+    position: relative;
+    width: 100%; /* Full width of the parent container */
+    overflow: hidden;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.plans-section{
+    max-width:70vw;
+}
+
+.plans-list{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.plans {
+    flex: 1 1 80px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #f65026, #302b28f7);
+    border-radius: 8px;
+}
+
+.plan-heading{
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+}
+
+.plan-content{
+    font-size:12px;
+    font-weight:bold;
+    color:rgb(121, 121, 121);
+}
+
+.plans-section> :first-child{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width: 786px) {
+    .plans{
+        flex:1 1 calc(50% -20px);
+    }
+   
+    .plan-content {
+        font-size: 10px;
+    }
+
+    .plan-heading{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .plans {
+        flex: 1 1 calc(100% - 20px);
+    }
+
+    .plan-content {
+        font-size: 8px;
+    }
+
+    .plan-heading{
+        font-size: 10px;
+    }
+    
 }
