@@ -847,7 +847,7 @@
                             </div>
                         </div>
                         <!-- Add Scrollbar -->
-                        <div class="swiper-scrollbar"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
 
                 </div>
@@ -1325,12 +1325,12 @@
     </main>
 
     <footer>
-        <img src="https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/landing-assets/images/footer-bg-top-curve.webp"
+        <img id="footer-img" src="https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/landing-assets/images/footer-bg-top-curve.webp"
             alt="Top Curve" class="footer-bg-top-curve">
         <div class="container">
             <div class="footer-nav">
                 <div class="nav-logo">
-                    <img src="https://skyjumpertrampolinepark.com/wp-content/uploads/2023/11/logo.webp"
+                    <img  src="https://skyjumpertrampolinepark.com/wp-content/uploads/2023/11/logo.webp"
                         alt="Website Logo">
                 </div>
                 <div class="footer-nav-links">
@@ -1552,6 +1552,12 @@
         </div>
     </footer>
 
+    <div class="web-what-link">
+        <a target="_blank" href="https://wa.link/nhj7es">
+            <img src="https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/whatsapp-ic.png" alt="Whatsapp">
+        </a>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
@@ -1738,12 +1744,14 @@
 
         var swiperReels = new Swiper('.swiper-reels', {
             slidesPerView: 3,
-            freeMode: true,
-            scrollbar: {
-                el: '.swiper-scrollbar',
-                hide: false,
-                draggable: true,
-            },
+            // freeMode: true,
+            pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">'+ "</span>";
+        },
+      },
             breakpoints: {
                 // when window width is >= 320px
                 768: {
@@ -1771,27 +1779,28 @@
             },
             loopAddBlankSlides: true,
             cssMode: true,
-            speed: 2000,
             grabCursor: true,
             loopAdditionalSlides: 2,
             breakpoints: {
                 // when window width is >= 320px
                 1240: {
-                    slidesPerView: 5,
+                    slidesPerView: 6,
                 },
                 1024: {
                     slidesPerView: 5,
                 },
                 768: {
                     slidesPerView: 3,
+                    spaceBetween:2,
                 },
                 // when window width is >= 480px
                 480: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
+                    spaceBetween:2,
                 },
                 // when window width is >= 640px
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 3,
                 }
             }
         };

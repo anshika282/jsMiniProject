@@ -98,6 +98,16 @@ nav {
     line-height: 0;
 }
 
+.nav-links-style .nav-links li a:hover{
+  cursor: pointer;
+  color: #F0852D;
+}
+
+.nav-links-style .dropdown-menu li a:hover{
+  cursor: pointer;
+  color: #000;
+}
+
 .nav-bar .logo {
     height: 90px;
     width: 118px;
@@ -1537,8 +1547,8 @@ footer {
 
 .nav-slider .swiper-container-free-mode>.swiper-wrapper {
     transition-timing-function: linear;
-    border-bottom: 4px solid white;
-    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 
 .header-section .swiper-container-free-mode>.swiper-wrapper {
@@ -1671,7 +1681,24 @@ footer {
     .card-styles {
         flex-direction: column;
     }
+    
+.card-content{
+  padding: 0;
+  padding-top: 5px;
+}
 
+.card-content-desc{
+  width: 100%;
+  font-size: 15px;
+}
+
+.card-styles.card-2{
+      clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+}
+.card-styles.card-3{
+      clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+      /* clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%); */
+} 
 }
 
 @media (max-width:390px) {
@@ -1685,9 +1712,6 @@ footer {
 }
 
 @media (max-width: 980px) {
-    .card-styles {
-        flex-direction: column;
-    }
 
     .about-us-map-block-container {
         flex-direction: column-reverse;
@@ -1764,7 +1788,7 @@ footer {
         content: "";
         position: absolute;
         background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/arrow-navigate.png);
-        right: -109px;
+        right: -88px;
         top: -36px;
         width: 157px;
         height: 174px;
@@ -2177,7 +2201,7 @@ footer {
         justify-content: center;
     }
 
-    footer img:nth-child(1) {
+    footer #footer-img {
         display: none;
     }
 
@@ -2421,10 +2445,13 @@ footer {
         left: 0;
         width: auto;
 
+        transform: scaleY(1);
     }
 
+
+
     .site-menu ul {
-        background: #F0852D;
+        background: #EC623C;
         padding: 15px 10px;
     }
 
@@ -2433,6 +2460,13 @@ footer {
 } */
 
 }
+
+.site-menu .nav-links{
+  transform-origin: top; /* Curtain effect starts from the top */
+      transition: transform 0.5s ease;
+      transform: scaleY(0);   
+}
+
 
 #nav-toggle.active span {
     background-color: transparent;
@@ -2496,7 +2530,7 @@ footer {
     display: none;
 }
 
-.swiper-button-next:after {
+.happy-tales-slider .swiper-button-next:after {
     content: "";
     background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/arrow-2.png);
     background-repeat: no-repeat;
@@ -2509,7 +2543,7 @@ footer {
     /* z-index: 999; */
 }
 
-.swiper-button-prev:after {
+.happy-tales-slider .swiper-button-prev:after {
     content: "";
     background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/arrow-2.png);
     background-repeat: no-repeat;
@@ -2518,4 +2552,109 @@ footer {
     width: 225%;
     height: 63px;
     position: absolute;
+}
+
+.web-what-link {
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  z-index: 999999 !important;
+}
+
+.web-what-link img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+@media (max-width:520px){
+  footer .nav-slider .nav-slide-card{
+    /* width: min-content; */
+  }
+
+  footer .nav-slide-logo {
+    width: 39px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .nav-slide-logo img {
+  top: 0;
+  width: 80%;
+  object-fit: contain;
+  height: -webkit-fill-available;
+  flex: 0 0 30%;
+}
+
+footer .nav-slider .nav-swiper{
+  width: 100%;
+    margin-left: 8px;
+}
+
+header .nav-slide-logo img{
+    width: 60%;
+    flex: 0 0 30%;
+}
+
+header .nav-slide-logo{
+  width: 50px;
+}
+/* header .swipper-slide{
+  height: 40px;
+} */
+
+.header-section .nav-swiper {
+  width: 80%;
+  height: 62%;
+  margin-left: 32px;
+}
+
+
+
+}
+
+.card-content-desc{
+  font-family: "Poppins", serif;
+}
+
+
+@media (max-width:590px){
+  .card-styles .card-1{
+    gap: 4px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    padding: 31px;
+    margin: 10px 0;
+  }
+
+  .card-styles .card-2{
+    padding: 50px 20px;
+        margin-top: -30px;
+        clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+        flex-direction: column;
+        gap: 20px
+  }
+  .card-styles .card-3{
+    padding: 50px 20px;
+    flex-direction: column;
+        clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+        /* clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 100%); */
+    margin-top: -30px;
+    gap: 20px;
+} 
+
+  }
+
+
+.swiper-pagination-bullet{
+         background: transparent !important;
+        width: 35px;
+        height: 7px;
+        border: 2px solid #029EE0 !important;
+        gap: 10px;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #029EE0;
 }
