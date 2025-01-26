@@ -45,14 +45,14 @@ nav {
     font-weight: 500;
 }
 
-.nav-links-style .nav-links li a:hover{
-  cursor: pointer;
-  color: #F0852D;
+.nav-links-style .nav-links li a:hover {
+    cursor: pointer;
+    color: #F0852D;
 }
 
-.nav-links-style .dropdown-menu li a:hover{
-  cursor: pointer;
-  color: #000;
+.nav-links-style .dropdown-menu li a:hover {
+    cursor: pointer;
+    color: #000;
 }
 
 .nav-bar .logo {
@@ -319,27 +319,27 @@ nav li a {
     justify-content: center;
 }
 
-.header-swiper{
+.header-swiper {
     height: 42px;
 }
 
-.hero-section{
+.hero-section {
     margin-top: -110px;
     position: relative;
     height: 100vh;
     max-height: 100vh;
 }
 
-.hero-section .container{
+.hero-section .container {
     padding: 0;
 }
 
-.hero-section .video-block{
+.hero-section .video-block {
     width: 100%;
     height: 100%;
 }
 
-.hero-section .hero-heading-block{
+.hero-section .hero-heading-block {
     position: absolute;
     left: 0;
     right: 0;
@@ -353,7 +353,7 @@ nav li a {
 
 }
 
-.hero-section .hero-heading-block h1{
+.hero-section .hero-heading-block h1 {
     color: orange;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 2px;
@@ -362,19 +362,19 @@ nav li a {
     line-height: 0.6;
 }
 
-.hero-section .hero-heading-block span{
+.hero-section .hero-heading-block span {
     font-size: 30px;
     -webkit-text-stroke-width: 0.6px;
 }
 
-.hero-section .hero-sub-block{
+.hero-section .hero-sub-block {
     font-style: italic;
     color: white;
     font-size: 23px;
     font-weight: 600;
 }
 
-.overlay-bg{
+.overlay-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -390,37 +390,41 @@ nav li a {
     align-items: center;
 }
 
-.about-block .about-us-content{
+.about-block .about-us-content {
     flex: 0 0 50%;
 }
 
 .about-block .about-us-content h2,
-.personality-traits .trait-content h3, 
-.role-at-skyjumper .text-holder h2, 
+.personality-traits .trait-content h3,
+.role-at-skyjumper .text-holder h2,
 .chichi-adventures .main-gallery-slider h2,
 .jumping-technique h2,
 .meet-greet-chichi .heading-holder h2,
-.buy-chichi-merch  .heading-holder h2,
+.buy-chichi-merch .heading-holder h2,
 .chichi-blog .heading-holder h2,
-.trampoline-tips-tricks .heading-main h2{
+.trampoline-tips-tricks .heading-main h2 {
     font-size: 42px;
     font-weight: 700;
-    
+
 }
 
 
-.about-block .about-us-content h2{
+.about-block .about-us-content h2 {
     margin-bottom: 25px;
 }
 
-.about-block .about-us-content p,.personality-traits .trait-content p, .role-at-skyjumper .text-holder p{
+.about-block .about-us-content p,
+.personality-traits .trait-content p,
+.role-at-skyjumper .text-holder p {
     font-size: 18px;
 }
 
-.about-block .about-us-content span ,.trampoline-tips-tricks .heading-main span{
+.about-block .about-us-content span,
+.trampoline-tips-tricks .heading-main span {
     color: #F5881F;
 }
-.about-block .about-us-content a{
+
+.about-block .about-us-content a {
     border-radius: 50px;
     background: #FDE403;
     padding: 5px 19px;
@@ -431,7 +435,7 @@ nav li a {
     font-size: 18px;
 }
 
-.about-block .chi-image{
+.about-block .chi-image {
     width: auto;
     height: auto;
 }
@@ -442,18 +446,20 @@ nav li a {
     object-fit: contain;
 }
 
-.personality-traits .container{
+.personality-traits .container {
     padding: 0;
 }
-.personality-traits .trait-content{
+
+.personality-traits .trait-content {
     margin: 20px auto;
     padding: 0 20px;
 }
 
-.personality-traits .trait-content span{
+.personality-traits .trait-content span {
     color: #F5881F;
 }
-.personality-traits .trait-slider{
+
+.personality-traits .trait-slider {
     background-image: url("https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/img/chich-trait-bg.png");
     padding: 5px 20px;
     background-repeat: no-repeat;
@@ -461,17 +467,18 @@ nav li a {
 }
 
 .trait-slider .swiper-traits {
-  
+
     /* width: 100%; */
     max-width: 1280px;
     /* height: 540px; */
     margin: 15px auto;
-  }
-
-.trait-slider .swiper-custom{
-    	 /* justify-content: center; */
 }
-.trait-slider  .swiper-slide{
+
+.trait-slider .swiper-custom {
+    /* justify-content: center; */
+}
+
+.trait-slider .swiper-slide {
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
@@ -479,11 +486,11 @@ nav li a {
     background: none;
     /* max-width: 340px; */
     /* max-height: 517px; */
-  }
-  .trait-slider .trait-slide {
+}
+
+.trait-slider .trait-slide {
     background: white;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     /* width: 100%; */
     height: 100%;
@@ -493,12 +500,13 @@ nav li a {
     max-width: 370px;
 }
 
-.trait-slider .trait-slide h4{
+.trait-slider .trait-slide h4 {
     margin: 15px;
     font-size: 26px;
     font-weight: 500;
 }
-.trait-slide .trait-image{
+
+.trait-slide .trait-image {
     width: 100%;
     height: 100%;
     display: flex;
@@ -513,76 +521,83 @@ nav li a {
     border-radius: 5px;
 }
 
-.role-at-skyjumper .chichi-main-holder{
+.role-at-skyjumper .chichi-main-holder {
     display: flex;
-        padding: 20px 10px;
+    padding: 20px 10px;
 }
-.role-at-skyjumper .chichi-main-holder .text-holder{
+
+.role-at-skyjumper .chichi-main-holder .text-holder {
     flex: 0 0 50%;
     font-size: 12px;
 }
-.text-holder span{
+
+.text-holder span {
     color: #F5881F;
 }
-.text-holder h4{
+
+.text-holder h4 {
     font-size: 16px;
 }
 
-.chichi-main-holder .image-holder img{
+.chichi-main-holder .image-holder img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.role-at-skyjumper .btn-holder{   
-     display: flex
-    ;
-        justify-content: center;
-        align-items: center;
-    }
+.role-at-skyjumper .btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.role-at-skyjumper .btn-holder a{
+.role-at-skyjumper .btn-holder a {
     border-radius: 50px;
     background: #FDE403;
     padding: 5px 19px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.buy-chichi-merch .container{
+.buy-chichi-merch .container {
     padding: 45px 15px;
 }
-.buy-chichi-merch .heading-holder span{
+
+.buy-chichi-merch .heading-holder span {
     color: #F5881F;
 }
-.buy-chichi-merch .description-holder{
+
+.buy-chichi-merch .description-holder {
     margin-top: 20px;
     display: flex;
 }
-.buy-chichi-merch .description-holder .text-holder{
+
+.buy-chichi-merch .description-holder .text-holder {
     width: 50%;
     padding-right: 10px;
 }
-.buy-chichi-merch .description-holder .img-holder{
+
+.buy-chichi-merch .description-holder .img-holder {
     height: 325px;
     width: 50%;
 }
-.buy-chichi-merch .description-holder .img-holder img{
+
+.buy-chichi-merch .description-holder .img-holder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.chichi-blog .blog-holder{
+.chichi-blog .blog-holder {
     padding: 50px 15px;
 }
 
-.chichi-blog .blog-cards-holder{
+.chichi-blog .blog-cards-holder {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.chichi-blog .blog-cards-holder .blog-card{
+.chichi-blog .blog-cards-holder .blog-card {
     min-height: 216px;
     max-width: 492px;
     /* display: flex;
@@ -592,64 +607,69 @@ nav li a {
     border: 0px solid #DCDDDD;
 }
 
-.chichi-blog  .blog-card .img-holder{
+.chichi-blog .blog-card .img-holder {
     height: 350px;
     padding: 10px;
     width: 494px;
 }
-.chichi-blog  .blog-card .img-holder img{
+
+.chichi-blog .blog-card .img-holder img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 9px;
 }
 
-.chichi-blog  .blog-card .blog-card-text-holder{
+.chichi-blog .blog-card .blog-card-text-holder {
     text-align: center;
     margin-bottom: 63px;
     margin-top: 31px;
 }
 
-.chichi-blog .blog-card .blog-card-text-holder h2{
+.chichi-blog .blog-card .blog-card-text-holder h2 {
     font-size: 24px;
     font-weight: 600;
 }
-.chichi-blog .blog-card .blog-card-text-holder p{
+
+.chichi-blog .blog-card .blog-card-text-holder p {
     font-size: 12px;
     font-weight: 400;
     color: #666666;
     margin-bottom: auto;
 }
-.chichi-blog .blog-card .blog-card-text-holder a{
+
+.chichi-blog .blog-card .blog-card-text-holder a {
     font-size: 12px;
     font-weight: 400;
 }
 
 
-.chichi-blog  .blog-card .blog-card-text-holder a{
+.chichi-blog .blog-card .blog-card-text-holder a {
     color: black;
 }
 
 
 
 
-.chichi-blog .heading-holder span{
+.chichi-blog .heading-holder span {
     color: #F5881F;
 }
 
-.chichi-adventures{
+.chichi-adventures {
     margin-top: 61px;
 }
 
-.chichi-adventures .main-gallery-slider h2{
+.chichi-adventures .main-gallery-slider h2 {
     margin-bottom: 15px;
 }
-.chichi-adventures .main-gallery-slider span,.meet-greet-chichi .heading-holder span{
-    color:#F0852D;
+
+.chichi-adventures .main-gallery-slider span,
+.meet-greet-chichi .heading-holder span {
+    color: #F0852D;
 }
 
-.chichi-adventures .gallery-holder img{
-    width:100%;
+.chichi-adventures .gallery-holder img {
+    width: 100%;
     height: 100%;
     object-fit: contain;
 }
@@ -658,42 +678,43 @@ nav li a {
     margin: 40px 0;
 }
 
-.meet-greet-chichi{
+.meet-greet-chichi {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .meet-greet-chichi .heading-holder {
     margin-bottom: 18px;
 }
 
-.meet-greet-chichi .heading-holder p{
+.meet-greet-chichi .heading-holder p {
     font-size: 22px;
 }
 
-.meet-greet-chichi .booking-holder .booking-demo-inner-block{
+.meet-greet-chichi .booking-holder .booking-demo-inner-block {
     background: linear-gradient(91deg, #5602c1 1.6%, #8f0bf7);
     border-radius: 24px;
     padding: 32px 27px;
 
 }
 
-.meet-greet-chichi .site-gallery-wrapper{
+.meet-greet-chichi .site-gallery-wrapper {
     height: 550px;
 }
 
-.meet-greet-chichi .swiper-slide{
+.meet-greet-chichi .swiper-slide {
     border-radius: 30px;
     background: none;
 }
 
-.site-gallery-wrapper .slide-image img{
-    width:100%;
+.site-gallery-wrapper .slide-image img {
+    width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 25px;
 }
 
-.meet-greet-chichi .site-booking-form{
+.meet-greet-chichi .site-booking-form {
     background: white;
     border-radius: 25px;
     padding: 30px 19px;
@@ -701,10 +722,9 @@ nav li a {
 
 
 .meet-greet-chichi .sellocation {
-    display: flex
-    ;
-        flex-direction: column;
-        gap: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 #selform {
@@ -713,18 +733,18 @@ nav li a {
     border-radius: 3px;
 }
 
-.meet-greet-chichi .chichi-block-img{
+.meet-greet-chichi .chichi-block-img {
     width: auto;
     height: auto;
 }
 
-.meet-greet-chichi .chichi-block-img img{
-    width:100%;
+.meet-greet-chichi .chichi-block-img img {
+    width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.meet-greet-chichi .booking-demo-inner-block h3{
+.meet-greet-chichi .booking-demo-inner-block h3 {
     color: white;
     font-size: 43px;
     font-weight: 600;
@@ -733,37 +753,39 @@ nav li a {
     text-shadow: 0px 3px darkslategrey;
 }
 
-.section-space{
+.section-space {
     margin-top: 60px;
     margin-bottom: 60px;
 }
 
-.trampoline-tips-tricks .description-holder{
+.trampoline-tips-tricks .description-holder {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
 }
 
-.trampoline-tips-tricks .bonus-tips-holder{
+.trampoline-tips-tricks .bonus-tips-holder {
     text-align: center;
 }
-.trampoline-tips-tricks .bonus-tips-holder span{
+
+.trampoline-tips-tricks .bonus-tips-holder span {
     color: #F0852D;
 }
 
-.trampoline-tips-tricks .trick-slider .trick-slide{
+.trampoline-tips-tricks .trick-slider .trick-slide {
     display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        gap: 10px;
-        padding: 20px;
-        border-radius: 5px;
-        background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/img/chichi-tip-bg.png);
-        background-repeat: no-repeat;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/img/chichi-tip-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.trampoline-tips-tricks .swiper-tricks{
+.trampoline-tips-tricks .swiper-tricks {
     height: 456px;
 }
 
@@ -771,48 +793,55 @@ nav li a {
     padding: 5px 20px;
 }
 
-.trick-slider .swiper-slide{
-    display: flex
-;
+.trick-slider .swiper-slide {
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     background: none;
-    max-width: 378px;
+    /* max-width: 378px; */
     max-height: 504px;
 }
-.trick-slide .trick-banner{
+
+.trick-slide .trick-banner {
     background: url('https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/img/chichi-tip.png') no-repeat;
     height: 174px;
     width: 100%;
     position: relative;
+    background-size: contain;
 }
 
-.trick-slide .trick-desc{
-    display: flex
-;
-    flex-direction: column; 
+.trick-slide .trick-desc {
+    display: flex;
+    flex-direction: column;
 }
 
-.trick-slide .trick-banner h2{
+.trick-slide .trick-banner h2 {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 48px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.jumping-technique .tech-slide{
+.trick-banner span {
+    font-size: 50px;
+}
+
+.jumping-technique .tech-slide {
     padding: 5%;
     height: inherit;
 }
 
-.jumping-technique .tech-image{
+.jumping-technique .tech-image {
     height: 500px;
     width: inherit;
     margin-bottom: 12px;
 }
 
-.jumping-technique .tech-image img{
+.jumping-technique .tech-image img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -1014,11 +1043,11 @@ footer {
 
 .nav-slide-card {
     display: flex;
-        position: relative;
-        width: auto;
-        /* justify-content: center;
+    position: relative;
+    width: auto;
+    /* justify-content: center;
         align-items: center; */
-        height: 46px;
+    height: 46px;
 
 }
 
@@ -1055,13 +1084,13 @@ footer {
 }
 
 @media (max-width: 786px) {
-  
+
 
     .nav-links li {
         flex: 1 1 calc(50% - 10px);
     }
 
-  
+
 }
 
 
@@ -1184,7 +1213,7 @@ footer {
         display: none;
     }
 
-    .nav-bar .logo{
+    .nav-bar .logo {
         flex: 0 0 30%;
     }
 }
@@ -1204,7 +1233,7 @@ footer {
 
 @media (max-width:590px) {
     .site-menu {
-        
+
         width: auto;
         padding: 0;
     }
@@ -1244,11 +1273,11 @@ footer {
         bottom: -10px;
     }
 
-   
+
     .site-menu {
         display: flex;
         height: 10px;
-        width: 47px;    
+        width: 47px;
     }
 
     .site-menu .nav-links {
@@ -1275,10 +1304,11 @@ footer {
 
 }
 
-.site-menu .nav-links{
-  transform-origin: top; /* Curtain effect starts from the top */
-      transition: transform 0.5s ease;
-      transform: scaleY(0);   
+.site-menu .nav-links {
+    transform-origin: top;
+    /* Curtain effect starts from the top */
+    transition: transform 0.5s ease;
+    transform: scaleY(0);
 }
 
 
@@ -1330,61 +1360,62 @@ footer {
 
 
 .web-what-link {
-  position: fixed;
-  bottom: 7px;
-  right: 7px;
-  z-index: 999999 !important;
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    z-index: 999999 !important;
 }
 
 .web-what-link img {
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 }
 
-@media (max-width:520px){
-  footer .nav-slider .nav-slide-card{
-    /* width: min-content; */
-  }
+@media (max-width:520px) {
+    footer .nav-slider .nav-slide-card {
+        /* width: min-content; */
+    }
 
-  footer .nav-slide-logo {
-    width: 39px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    footer .nav-slide-logo {
+        width: 39px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-footer .nav-slide-logo img {
-  top: 0;
-  width: 80%;
-  object-fit: contain;
-  height: -webkit-fill-available;
-  flex: 0 0 30%;
-}
+    footer .nav-slide-logo img {
+        top: 0;
+        width: 80%;
+        object-fit: contain;
+        height: -webkit-fill-available;
+        flex: 0 0 30%;
+    }
 
-footer .nav-slider .nav-swiper{
-  width: 100%;
-    margin-left: 8px;
-}
+    footer .nav-slider .nav-swiper {
+        width: 100%;
+        margin-left: 8px;
+    }
 
-header .nav-slide-logo img{
-    width: 60%;
-    flex: 0 0 30%;
-}
+    header .nav-slide-logo img {
+        width: 60%;
+        flex: 0 0 30%;
+    }
 
-header .nav-slide-logo{
-  width: 50px;
-}
-/* header .swipper-slide{
+    header .nav-slide-logo {
+        width: 50px;
+    }
+
+    /* header .swipper-slide{
   height: 40px;
 } */
 
-.header-section .nav-swiper {
-  width: 80%;
-  height: 62%;
-  margin-left: 32px;
-}
+    .header-section .nav-swiper {
+        width: 80%;
+        height: 62%;
+        margin-left: 32px;
+    }
 
 
 }
@@ -1394,40 +1425,40 @@ header .nav-slide-logo{
 
 
 @media only screen and (max-width: 600px) {
-  
-    nav{
-      justify-content: space-between;  
+
+    nav {
+        justify-content: space-between;
     }
 
-    
+
 }
 
-@media (min-width: 568px) and (max-width:1100px){
+@media (min-width: 568px) and (max-width:1100px) {
     .nav-slider .nav-swiper {
-        height: calc(3vh);   
+        height: calc(3vh);
     }
 
 
- }
+}
 
- @media (min-width: 568px) and (max-width:1024px){
+@media (min-width: 568px) and (max-width:1024px) {
     .nav-slider .nav-swiper {
         /* height: calc(3vh);    */
         height: 46px;
     }
 
     footer .container {
-        margin-top:-120px;
+        margin-top: -120px;
     }
 
     .footer-nav {
         flex-direction: column;
     }
 
- }
+}
 
 
- @media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .chichi-main-banner .caption-block h1 {
         color: #F5881F;
         -webkit-text-stroke-width: 1.6px;
@@ -1438,72 +1469,82 @@ header .nav-slide-logo{
 }
 
 @media only screen and (min-width: 590px) and (max-width: 960px) {
+
     .about-block .about-us-content h2,
-.personality-traits .trait-content h3{
-    font-size: 42px;
-    font-weight: 600;
-    
-}
+    .personality-traits .trait-content h3 {
+        font-size: 42px;
+        font-weight: 600;
 
-.about-block .about-us-content p,.personality-traits .trait-content p{
-    font-size: 15px;
-    font-weight: 400;
-    
-}
+    }
 
-.about-block .about-us-content a {
-    width: 52%;
-    font-size: 14px;
-}
+    .about-block .about-us-content p,
+    .personality-traits .trait-content p {
+        font-size: 15px;
+        font-weight: 400;
 
-.trait-slider .swiper-slide {
-    /* max-width: 278px; */
-}
+    }
 
-.trait-slider .swiper-traits {
-    height: 429px;
-}
-.trait-slider .trait-slide h4 {
-    font-size: 22px;
+    .about-block .about-us-content a {
+        width: 52%;
+        font-size: 14px;
+    }
 
-}
+    .trait-slider .swiper-slide {
+        /* max-width: 278px; */
+    }
 
-.role-at-skyjumper .text-holder p{
-    font-size: 12.8px;
-}
-.role-at-skyjumper .text-holder h2,.chichi-adventures .main-gallery-slider h2,.meet-greet-chichi .heading-holder h2,
-.buy-chichi-merch  .heading-holder h2,
-.chichi-blog .heading-holder h2,
-.trampoline-tips-tricks .heading-main h2,.jumping-technique h2{
-    font-size: 30px;
-    font-weight: 500;
-}
+    .trait-slider .swiper-traits {
+        height: 429px;
+    }
 
-.trampoline-tips-tricks .description-holder p {
-    font-size: 14px;
-    font-weight: 500;
-}
-.trampoline-tips-tricks .description-holder h3 ,.meet-greet-chichi .heading-holder p {
-    font-size: 18px;
-    font-weight: 500;
-}
+    .trait-slider .trait-slide h4 {
+        font-size: 22px;
 
-.trampoline-tips-tricks .bonus-tips-holder h5 {
-    font-size: 15px;
-    font-weight: 500;
-    color: #666666;
-}
-.trampoline-tips-tricks .bonus-tips-holder p {
-    font-size: 14px;
-    font-weight: 500;
-    color: #666666;
-}
+    }
 
-.jumping-technique .tech-image {
-    height: 388px;
-    width: inherit;
-    margin-bottom: 12px;
-}
+    .role-at-skyjumper .text-holder p {
+        font-size: 12.8px;
+    }
+
+    .role-at-skyjumper .text-holder h2,
+    .chichi-adventures .main-gallery-slider h2,
+    .meet-greet-chichi .heading-holder h2,
+    .buy-chichi-merch .heading-holder h2,
+    .chichi-blog .heading-holder h2,
+    .trampoline-tips-tricks .heading-main h2,
+    .jumping-technique h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .trampoline-tips-tricks .description-holder p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .trampoline-tips-tricks .description-holder h3,
+    .meet-greet-chichi .heading-holder p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .trampoline-tips-tricks .bonus-tips-holder h5 {
+        font-size: 15px;
+        font-weight: 500;
+        color: #666666;
+    }
+
+    .trampoline-tips-tricks .bonus-tips-holder p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #666666;
+    }
+
+    .jumping-technique .tech-image {
+        height: 388px;
+        width: inherit;
+        margin-bottom: 12px;
+    }
 
 
 
@@ -1516,81 +1557,101 @@ header .nav-slide-logo{
         padding: 10px;
         width: auto;
     }
+
     .chichi-blog .blog-cards-holder .blog-card {
         min-height: 216px;
         max-width: 386px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         border: 0px solid #DCDDDD;
     }
+
+
 }
-@media only screen and (min-width: 780px) and (max-width: 979px) {
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
     .chichi-blog .blog-cards-holder .blog-card {
         min-height: 216px;
         max-width: 323px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         border: 0px solid #DCDDDD;
     }
+
     .chichi-blog .blog-card .img-holder {
         height: 300px;
         padding: 10px;
         width: auto;
     }
-    
+
+    .buy-chichi-merch .description-holder .img-holder {
+        /* height: 325px; */
+        height: 196px;
+        /* width: unset; */
+    }
+
 }
 
-@media only screen  and (max-width: 779px) {
+@media only screen and (max-width: 779px) {
     .chichi-blog .blog-cards-holder {
         justify-content: center;
         gap: 25px
-    }   
+    }
+
     .chichi-blog .blog-card .img-holder {
         height: 239px;
         width: auto;
     }
+
     .chichi-blog .blog-holder {
         padding: 0;
     }
+
     .about-block .about-us-content h2,
-.personality-traits .trait-content h3{
-    font-size: 34px;
-    font-weight: 500;
-    
+    .personality-traits .trait-content h3 {
+        font-size: 34px;
+        font-weight: 500;
+
+    }
+
+    .role-at-skyjumper .chichi-main-holder .text-holder h2,
+    .chichi-adventures .main-gallery-slider h2,
+    .trampoline-tips-tricks .heading-main h2,
+    .jumping-technique h2,
+    .meet-greet-chichi .heading-holder h2,
+    .chichi-blog .heading-holder h2,
+    .buy-chichi-merch .heading-holder h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .about-block .about-us-content p,
+    .personality-traits .trait-content p,
+    .role-at-skyjumper .chichi-main-holder .text-holder p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #393939;
+
+    }
+
 }
 
-.role-at-skyjumper .chichi-main-holder .text-holder h2,
-.chichi-adventures .main-gallery-slider h2,
-.trampoline-tips-tricks .heading-main h2,
-.jumping-technique h2,
-.meet-greet-chichi .heading-holder h2,
-.chichi-blog .heading-holder h2,
-.buy-chichi-merch .heading-holder h2{
-    font-size: 28px;
-    font-weight: 500;
-}
-
-.about-block .about-us-content p,.personality-traits .trait-content p,.role-at-skyjumper .chichi-main-holder .text-holder p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #393939;
-    
-}
-    
-}
-
-@media only screen and (max-width: 590px){
+@media only screen and (max-width: 590px) {
     .hero-section {
         height: 80vh;
     }
+
     .hero-section .hero-heading-block {
         bottom: 22%;
     }
+
     .hero-section .hero-heading-block h1 {
         -webkit-text-stroke-width: 1px;
         font-size: 50px;
     }
+
     .hero-section .hero-heading-block span {
         font-size: 22px;
     }
+
     .hero-section .hero-sub-block {
         font-size: 17px;
     }
@@ -1599,93 +1660,170 @@ header .nav-slide-logo{
         font-size: 13px;
         font-weight: 500;
     }
-    .trampoline-tips-tricks .description-holder h3 ,.meet-greet-chichi .heading-holder p {
+
+    .trampoline-tips-tricks .description-holder h3,
+    .meet-greet-chichi .heading-holder p {
         font-size: 17px;
         font-weight: 500;
     }
-    
+
     .trampoline-tips-tricks .bonus-tips-holder h5 {
         font-size: 15px;
         font-weight: 500;
         color: #666666;
     }
+
     .trampoline-tips-tricks .bonus-tips-holder p {
         font-size: 14px;
         font-weight: 500;
         color: #666666;
     }
 
+    .section-space {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .trick-banner span {
+        font-size: 38px;
+    }
+
 
 }
 
-@media only screen  and (max-width: 769px) {
-    .about-block{
+@media only screen and (max-width: 767px) {
+    .about-block {
         flex-direction: column;
         justify-content: center;
     }
+
     .about-block .chi-image {
         width: auto;
         height: auto;
         max-width: 60%;
     }
+
     .trait-slider .swiper-traits {
         width: 100%;
         height: 368px;
     }
+
     .trait-slider .trait-slide {
         /* width: 69%; */
     }
+
     .trait-slider .trait-slide h4 {
         font-size: 21px;
     }
+
     .role-at-skyjumper .chichi-main-holder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .role-at-skyjumper .chichi-main-holder .image-holder{
+
+    .role-at-skyjumper .chichi-main-holder .image-holder {
         max-width: 70%;
     }
+
     .meet-greet-chichi .site-gallery-wrapper {
         height: unset;
     }
-    .meet-greet-chichi .booking-row{
-        gap:10px;
+
+    .meet-greet-chichi .booking-row {
+        gap: 10px;
     }
 
     .buy-chichi-merch .description-holder {
         display: flex;
         flex-direction: column;
     }
+
     .buy-chichi-merch .description-holder .img-holder {
-        height: 325px;
+        /* height: 325px; */
+        height: 196px;
         width: unset;
     }
+
     .buy-chichi-merch .description-holder .text-holder {
         width: unset;
     }
-    
-    
-    
+
+
+
 }
-@media only screen  and (max-width: 560px) {
+
+@media only screen and (max-width: 560px) {
     .about-block .about-us-content a {
-       width: unset;
-       font-weight: 400;
-    font-size: 15px;
+        width: unset;
+        font-weight: 400;
+        font-size: 15px;
     }
+
     .meet-greet-chichi .booking-demo-inner-block h3 {
         font-size: 25px;
     }
 
-    
-    
+    .trick-content {
+        font-size: 15px;
+    }
+
+    .trick-heading {
+        font-size: 18px;
+    }
+
+    .trick-slide .trick-banner h2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        top: 30px;
+
+    }
+
+    .trampoline-tips-tricks .trick-slider .trick-slide {
+        gap: 0;
+    }
+
+
+
 }
 
-@media only screen  and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     .trait-slide .trait-image {
- 
+
         height: 90%;
     }
-    
+
+}
+
+@media only screen and (max-width: 1280px) {
+    /* .trick-slide .trick-banner {
+        height: unset;
+    } */
+
+    .trampoline-tips-tricks .trick-slider .trick-slide {
+        max-width: 392px;
+        background-repeat: no-repeat;
+    }
+
+    .trick-slider .swiper-slide {
+        max-height: 410px;
+
+    }
+
+    .trampoline-tips-tricks .trick-slider .trick-slide {
+        background-size: cover;
+        background-position-y: bottom;
+    }
+
+    .trick-slide .trick-banner {
+        height: 159px;
+        background-size: contain;
+    }
+
+    .trick-slide .trick-banner h2 {
+        bottom: 26px;
+    }
+
 }
