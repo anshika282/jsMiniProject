@@ -45,14 +45,14 @@ nav {
     font-weight: 500;
 }
 
-.nav-links-style .nav-links li a:hover{
-  cursor: pointer;
-  color: #F0852D;
+.nav-links-style .nav-links li a:hover {
+    cursor: pointer;
+    color: #F0852D;
 }
 
-.nav-links-style .dropdown-menu li a:hover{
-  cursor: pointer;
-  color: #000;
+.nav-links-style .dropdown-menu li a:hover {
+    cursor: pointer;
+    color: #000;
 }
 
 .nav-bar .logo {
@@ -148,7 +148,7 @@ nav li a {
     height: 100%;
 }
 
-    /* .swiper-slide {
+/* .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
@@ -319,33 +319,34 @@ nav li a {
     justify-content: center;
 }
 
-.header-swiper{
+.header-swiper {
     height: 42px;
 }
 
-.hero-section{
+.hero-section {
     height: 100vh;
     margin-top: -110px;
 }
 
-.hero-image{
+.hero-image {
     width: inherit;
     height: inherit;
 }
-.hero-image img{
+
+.hero-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.hero-book-button{
+.hero-book-button {
     margin-top: -100px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
 }
 
-.yellow-btn{
+.yellow-btn {
     margin: 10px auto;
     padding: 15px 60px;
     background: #FDE403;
@@ -355,7 +356,7 @@ nav li a {
     font-weight: 600;
 }
 
-.skyjumper-text-block{  
+.skyjumper-text-block {
     background: black;
     color: white;
     text-align: center;
@@ -365,7 +366,7 @@ nav li a {
     border-top: 1px solid white;
 }
 
-.section-space{
+.section-space {
     padding: 50px 0;
 }
 
@@ -377,14 +378,16 @@ nav li a {
     background-size: cover;
 }
 
-.lightup-skyjumper .heading-holder{
+.lightup-skyjumper .heading-holder,
+.game-play-option .heading-holder h2 {
     color: white;
 }
 
 .city-slider {
-    display:flex;
+    display: flex;
     margin: 25px 0;
 }
+
 .city-blocks {
     display: flex;
     gap: 10px;
@@ -392,11 +395,12 @@ nav li a {
     width: 100%;
     flex-wrap: wrap;
 }
-.city-blocks > * {
+
+.city-blocks>* {
     color: #ffffff;
 }
 
-.city-block{
+.city-block {
     color: white;
     border: 2px solid yellow;
     text-align: center;
@@ -409,17 +413,17 @@ nav li a {
     align-items: center;
 }
 
-.city-block p{
+.city-block p {
     margin-bottom: 0;
 }
 
-.city-block:hover{
+.city-block:hover {
     background: #ffff00;
     color: #000000;
     border-color: #ffffff;
 }
 
-.address-block{
+.address-block {
     color: #000000;
     border: 1px solid yellow;
     background: yellow;
@@ -431,45 +435,53 @@ nav li a {
     font-weight: 500;
 }
 
+.everything-to-know {
+    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/benefits-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .everything-image img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.everything-text-block{
+.everything-text-block {
     gap: 15px;
     display: flex;
     flex-direction: column;
 }
 
-.everything-text-block .heading-holder h2{
+.everything-text-block .heading-holder h2 {
     font-size: 32px;
     font-weight: 600;
 }
-.everything-text-block .heading-holder span,.benefits-of-lasertag .heading-holder span{
+
+.everything-text-block .heading-holder span,
+.benefits-of-lasertag .heading-holder span {
     color: #F5881F;
 }
 
-.everything-text-block .text-holder{
+.everything-text-block .text-holder {
     font-size: 16px;
     font-weight: 500;
 }
 
-.benefits-of-lasertag .heading-holder h2{
+.benefits-of-lasertag .heading-holder h2 {
     font-size: 35px;
     font-weight: 600;
 }
 
 
-.laser-tag-activities{
+.laser-tag-activities {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
 }
 
-.laser-tag-activity{
+.laser-tag-activity {
     display: flex;
     align-items: center;
     width: 290px;
@@ -477,7 +489,7 @@ nav li a {
     gap: 10px;
 }
 
-.laser-tag-activity h4{
+.laser-tag-activity h4 {
     font-size: 17px;
     font-weight: 600;
     color: #2C388D;
@@ -487,12 +499,40 @@ nav li a {
     width: 100px;
     height: 100px;
 }
-.laser-tag-activity .activity-img img{
+
+.laser-tag-activity .activity-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
+.laser-tag-activity .activity-img {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.benefits-of-lasertag {
+    margin: 10px;
+    /* background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/benefits-bg.png); */
+}
+
+.game-play-option {
+    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/game-play-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game-play-option .paralist {
+    display: flex;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paralist .para {
+    flex: 0 0 42%;
+    max-width: 43%;
+}
 
 
 
@@ -666,11 +706,11 @@ footer {
 
 .nav-slide-card {
     display: flex;
-        position: relative;
-        width: auto;
-        /* justify-content: center;
+    position: relative;
+    width: auto;
+    /* justify-content: center;
         align-items: center; */
-        height: 46px;
+    height: 46px;
 
 }
 
@@ -707,13 +747,13 @@ footer {
 }
 
 @media (max-width: 786px) {
-  
+
 
     .nav-links li {
         flex: 1 1 calc(50% - 10px);
     }
 
-  
+
 }
 
 
@@ -836,7 +876,7 @@ footer {
         display: none;
     }
 
-    .nav-bar .logo{
+    .nav-bar .logo {
         flex: 0 0 30%;
     }
 }
@@ -856,7 +896,7 @@ footer {
 
 @media (max-width:590px) {
     .site-menu {
-        
+
         width: auto;
         padding: 0;
     }
@@ -896,11 +936,11 @@ footer {
         bottom: -10px;
     }
 
-   
+
     .site-menu {
         display: flex;
         height: 10px;
-        width: 47px;    
+        width: 47px;
     }
 
     .site-menu .nav-links {
@@ -927,10 +967,11 @@ footer {
 
 }
 
-.site-menu .nav-links{
-  transform-origin: top; /* Curtain effect starts from the top */
-      transition: transform 0.5s ease;
-      transform: scaleY(0);   
+.site-menu .nav-links {
+    transform-origin: top;
+    /* Curtain effect starts from the top */
+    transition: transform 0.5s ease;
+    transform: scaleY(0);
 }
 
 
@@ -982,61 +1023,62 @@ footer {
 
 
 .web-what-link {
-  position: fixed;
-  bottom: 7px;
-  right: 7px;
-  z-index: 999999 !important;
+    position: fixed;
+    bottom: 7px;
+    right: 7px;
+    z-index: 999999 !important;
 }
 
 .web-what-link img {
-  width: 45px;
-  height: 45px;
-  object-fit: cover;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 }
 
-@media (max-width:520px){
-  footer .nav-slider .nav-slide-card{
-    /* width: min-content; */
-  }
+@media (max-width:520px) {
+    footer .nav-slider .nav-slide-card {
+        /* width: min-content; */
+    }
 
-  footer .nav-slide-logo {
-    width: 39px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    footer .nav-slide-logo {
+        width: 39px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-footer .nav-slide-logo img {
-  top: 0;
-  width: 80%;
-  object-fit: contain;
-  height: -webkit-fill-available;
-  flex: 0 0 30%;
-}
+    footer .nav-slide-logo img {
+        top: 0;
+        width: 80%;
+        object-fit: contain;
+        height: -webkit-fill-available;
+        flex: 0 0 30%;
+    }
 
-footer .nav-slider .nav-swiper{
-  width: 100%;
-    margin-left: 8px;
-}
+    footer .nav-slider .nav-swiper {
+        width: 100%;
+        margin-left: 8px;
+    }
 
-header .nav-slide-logo img{
-    width: 60%;
-    flex: 0 0 30%;
-}
+    header .nav-slide-logo img {
+        width: 60%;
+        flex: 0 0 30%;
+    }
 
-header .nav-slide-logo{
-  width: 50px;
-}
-/* header .swipper-slide{
+    header .nav-slide-logo {
+        width: 50px;
+    }
+
+    /* header .swipper-slide{
   height: 40px;
 } */
 
-.header-section .nav-swiper {
-  width: 80%;
-  height: 62%;
-  margin-left: 32px;
-}
+    .header-section .nav-swiper {
+        width: 80%;
+        height: 62%;
+        margin-left: 32px;
+    }
 
 
 }
@@ -1046,34 +1088,34 @@ header .nav-slide-logo{
 
 
 @media only screen and (max-width: 600px) {
-  
-    nav{
-      justify-content: space-between;  
+
+    nav {
+        justify-content: space-between;
     }
 
-    
+
 }
 
-@media (min-width: 568px) and (max-width:1100px){
+@media (min-width: 568px) and (max-width:1100px) {
     .nav-slider .nav-swiper {
-        height: calc(3vh);   
+        height: calc(3vh);
     }
 
 
- }
+}
 
- @media (min-width: 568px) and (max-width:1024px){
+@media (min-width: 568px) and (max-width:1024px) {
     .nav-slider .nav-swiper {
         /* height: calc(3vh);    */
         height: 46px;
     }
 
     footer .container {
-        margin-top:-120px;
+        margin-top: -120px;
     }
 
     .footer-nav {
         flex-direction: column;
     }
 
- }
+}
