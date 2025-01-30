@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
 body {
     font-family: "Poppins", serif;
     background-color: white;
 }
+
+
 
 
 nav {
@@ -22,10 +26,14 @@ nav {
     align-items: center;
 }
 
+
 .header-section .nav-swiper {
     max-height: inherit;
     height: 100%;
 }
+
+
+
 
 
 
@@ -34,9 +42,11 @@ nav {
     height: 100%;
 }
 
+
 .image-slides .mobview {
     display: none;
 }
+
 
 .nav-links {
     display: flex;
@@ -45,15 +55,18 @@ nav {
     font-weight: 500;
 }
 
+
 .nav-links-style .nav-links li a:hover {
     cursor: pointer;
     color: #F0852D;
 }
 
+
 .nav-links-style .dropdown-menu li a:hover {
     cursor: pointer;
     color: #000;
 }
+
 
 .nav-bar .logo {
     height: 90px;
@@ -61,11 +74,13 @@ nav {
     flex: 0 0 15%;
 }
 
+
 .nav-bar .logo a {
     height: 100%;
     width: 100%;
     display: block;
 }
+
 
 .logo img {
     width: 100%;
@@ -73,11 +88,13 @@ nav {
     object-fit: contain;
 }
 
+
 #myVideo {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 
 nav .dropdown-menu {
     display: none;
@@ -88,6 +105,7 @@ nav .dropdown-menu {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     list-style: none; */
 }
+
 
 nav li.active>.dropdown-menu {
     display: flex;
@@ -103,30 +121,39 @@ nav li.active>.dropdown-menu {
     position: absolute;
 }
 
+
 nav .dropdown-menu a {
     color: white;
     text-decoration: none;
 }
+
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
 
+
 }
+
 
 nav li a {
     text-decoration: none;
     color: black;
 }
 
+
 .nav-links li {
     position: relative;
 }
 
+
 .nav-links a {
     color: #EFE6F6;
 }
+
+
+
 
 
 
@@ -143,15 +170,20 @@ nav li a {
 
 
 
+
+
+
 .swiper-container {
     width: 100%;
     height: 100%;
 }
 
+
 /* .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
+
 
         display: -webkit-box;
         display: -ms-flexbox;
@@ -170,11 +202,15 @@ nav li a {
 
 
 
+
+
+
 .slide-container {
     max-width: 1120px;
     width: 100%;
     padding: 40px 0;
 }
+
 
 .slide-content {
     margin: 0 40px;
@@ -182,6 +218,9 @@ nav li a {
     border-radius: 25px;
     padding-bottom: 20px;
 }
+
+
+
 
 
 
@@ -193,6 +232,7 @@ nav li a {
     position: relative;
 }
 
+
 .book-a-party {
     position: absolute;
     top: 14px;
@@ -200,6 +240,7 @@ nav li a {
     text-align: center;
     color: black;
 }
+
 
 .book-ticket-button {
     background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
@@ -214,6 +255,7 @@ nav li a {
     font-weight: 500;
 }
 
+
 .book-ticket {
     position: absolute;
     padding: 1px;
@@ -221,10 +263,15 @@ nav li a {
     color: black;
 }
 
+
 .book-ticket-button a,
 .book-button a {
     color: black;
 }
+
+
+
+
 
 
 
@@ -239,6 +286,7 @@ nav li a {
     border-radius: 25px 25px 0 25px;
 }
 
+
 .overlay::before,
 .overlay::after {
     content: '';
@@ -250,10 +298,12 @@ nav li a {
     background-color: #4070F4;
 }
 
+
 .overlay::after {
     border-radius: 0 25px 0 0;
     background-color: #FFF;
 }
+
 
 .name {
     font-size: 18px;
@@ -263,42 +313,53 @@ nav li a {
     padding-bottom: 5px;
 }
 
+
 .description {
     font-size: 14px;
     color: white;
     text-align: center;
 }
 
+
 .swiper-navBtn {
     color: #6E93f7;
     transition: color 0.3s ease;
 }
 
+
 .swiper-navBtn:hover {
     color: #4070F4;
 }
+
 
 .swiper-navBtn::before,
 .swiper-navBtn::after {
     font-size: 38px;
 }
 
+
 .swiper-button-next {
     right: 0;
 }
 
+
 .swiper-button-prev {
     left: 0;
 }
+
 
 .swiper-pagination-bullet {
     background-color: #6E93f7;
     opacity: 1;
 }
 
+
 .swiper-pagination-bullet-active {
     background-color: #4070F4;
 }
+
+
+
 
 
 
@@ -319,19 +380,23 @@ nav li a {
     justify-content: center;
 }
 
+
 .header-swiper {
     height: 42px;
 }
 
+
 .hero-section {
-    height: 100vh;
+    height: 95vh;
     margin-top: -110px;
 }
+
 
 .hero-image {
     width: inherit;
     height: inherit;
 }
+
 
 .hero-image img {
     width: 100%;
@@ -339,12 +404,14 @@ nav li a {
     object-fit: cover;
 }
 
+
 .hero-book-button {
-    margin-top: -100px;
-    display: flex;
+    /* margin-top: -100px; */
+    /* display: flex; */
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
 }
+
 
 .yellow-btn {
     margin: 10px auto;
@@ -356,6 +423,7 @@ nav li a {
     font-weight: 600;
 }
 
+
 .skyjumper-text-block {
     background: black;
     color: white;
@@ -366,9 +434,11 @@ nav li a {
     border-top: 1px solid white;
 }
 
+
 .section-space {
     padding: 50px 0;
 }
+
 
 .lightup-skyjumper {
     background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/location-tags.png);
@@ -378,15 +448,18 @@ nav li a {
     background-size: cover;
 }
 
+
 .lightup-skyjumper .heading-holder,
 .game-play-option .heading-holder h2 {
     color: white;
 }
 
+
 .city-slider {
     display: flex;
     margin: 25px 0;
 }
+
 
 .city-blocks {
     display: flex;
@@ -396,9 +469,11 @@ nav li a {
     flex-wrap: wrap;
 }
 
+
 .city-blocks>* {
     color: #ffffff;
 }
+
 
 .city-block {
     color: white;
@@ -413,9 +488,11 @@ nav li a {
     align-items: center;
 }
 
+
 .city-block p {
     margin-bottom: 0;
 }
+
 
 .city-block:hover {
     background: #ffff00;
@@ -423,17 +500,27 @@ nav li a {
     border-color: #ffffff;
 }
 
+
 .address-block {
     color: #000000;
     border: 1px solid yellow;
     background: yellow;
     margin: 10px auto;
-    width: 40%;
+    width: 369px;
     padding: 20px;
     border-radius: 20px;
     font-size: 18px;
+    height: 96px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
     font-weight: 500;
+    overflow: hidden;
+    /* white-space: wrap; */
+    text-overflow: ellipsis;
 }
+
 
 .everything-to-know {
     background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/benefits-section-bg.png);
@@ -441,11 +528,13 @@ nav li a {
     background-size: cover;
 }
 
+
 .everything-image img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
 
 .everything-text-block {
     gap: 15px;
@@ -453,33 +542,47 @@ nav li a {
     flex-direction: column;
 }
 
+
 .everything-text-block .heading-holder h2 {
     font-size: 32px;
     font-weight: 600;
 }
+
 
 .everything-text-block .heading-holder span,
 .benefits-of-lasertag .heading-holder span {
     color: #F5881F;
 }
 
+
 .everything-text-block .text-holder {
     font-size: 16px;
     font-weight: 500;
 }
 
-.benefits-of-lasertag .heading-holder h2 {
+
+.benefits-of-lasertag .heading-holder h2,
+.game-play-option .heading-holder h2,
+.laser-legends .heading-holder h2,
+.sky-laser-tag .heading-holder h2,
+.custom-booking .heading-holder h2,
+.laser-showcase-arena .heading-holder h2 {
     font-size: 35px;
     font-weight: 600;
 }
+
+
 
 
 .laser-tag-activities {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    column-gap: 67px;
+    margin-top: 30px;
+    margin-bottom: -20px;
 }
+
 
 .laser-tag-activity {
     display: flex;
@@ -489,32 +592,45 @@ nav li a {
     gap: 10px;
 }
 
+
 .laser-tag-activity h4 {
     font-size: 17px;
     font-weight: 600;
     color: #2C388D;
+    font-style: italic;
+    letter-spacing: 1px;
 }
+
 
 .laser-tag-activity .activity-img {
     width: 100px;
     height: 100px;
 }
 
+
 .laser-tag-activity .activity-img img {
     width: 100%;
-    height: 100%;
+    height: 70%;
     object-fit: contain;
+    border-radius: 77%;
+    box-shadow: 1px 0px 6px #00000042;
 }
 
+
 .laser-tag-activity .activity-img {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 24%;
+    max-width: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .benefits-of-lasertag {
     margin: 10px;
     /* background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/benefits-bg.png); */
 }
+
 
 .game-play-option {
     background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/game-play-bg.png);
@@ -522,12 +638,17 @@ nav li a {
     background-size: cover;
 }
 
+
 .game-play-option .paralist {
     display: flex;
     color: #ffffff;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0 60px;
+    gap: 26px;
+    padding-top: 30px;
 }
+
 
 .paralist .para {
     flex: 0 0 42%;
@@ -535,6 +656,324 @@ nav li a {
 }
 
 
+.laser-legends {
+    position: relative;
+    color: #ffffff;
+}
+
+.laser-legends .heading-holder {
+    color: #ffffff;
+    z-index: 1;
+    padding: 0;
+}
+
+
+.laser-legends>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.swiper-legend .legend-slide {
+    border: 1px solid #6F37D1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    padding: 17px 12px;
+    background: #19093E;
+    background: rgba(38, 12, 90, 0.40);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(6px);
+    height: inherit;
+    width: inherit;
+}
+
+
+.legend-slide .legend-image {
+    padding: 0 30px;
+}
+
+
+.legend-slide .legend-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.legend-slide .legend-desc {
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.legend-slide .legend-desc h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.legend-slide .legend-desc p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.laser-legends .legend-slides {
+    padding: 25px 0;
+}
+
+
+.sky-laser-tag .text-holder {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 13px;
+}
+
+
+.sky-laser-tag .text-holder p {
+    line-height: 28px;
+}
+
+
+.sky-laser-tag .video-block {
+    /* height: 70vh; */
+    height: 510px;
+}
+
+
+.sky-laser-tag .video-block iframe,
+.sky-laser-tag .card-video iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.sky-laser-tag .video-list {
+    margin: 30px 0;
+    /* height: 317px; */
+}
+
+
+.sky-laser-tag .video-card-block {
+    padding: 0;
+    padding-right: 24px;
+    /* margin-right: 11px; */
+}
+
+
+.sky-laser-tag .video-card-block:last-of-type {
+    padding-right: 0;
+}
+
+
+.sky-laser-tag .video-card {
+    width: auto;
+    height: auto;
+    /* background: pink; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+.sky-laser-tag .video-card p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+.sky-laser-tag .card-video {
+    /* height: 25vh; */
+    height: 300px;
+}
+
+
+.custom-booking {
+    position: relative;
+}
+
+
+.custom-booking>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.custom-booking .sec-pos {
+    z-index: 1;
+    padding-bottom: 32px;
+}
+
+
+.custom-booking .text-holder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.custom-booking .heading-holder h2 {
+    color: #ffffff;
+}
+
+
+.custom-booking .form-block form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 13px;
+    row-gap: 8px;
+}
+
+
+.custom-booking .form-block form>* {
+    flex: 0 0 47%;
+    /* margin: 9px 0; */
+    max-width: 47%;
+}
+
+
+.form-block form input,
+select {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.form-block form input::placeholder {
+    color: #2C388D;
+}
+
+
+.orange {
+    margin: 10px 0;
+    color: white;
+    background-color: #EC623C;
+    border: 1px solid #EC623C;
+}
+
+
+.form-block form select {
+    color: #2C388D;
+}
+
+
+.showcase-slide {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 550px;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 483px; */
+    width: 591px;
+    column-gap: 10px;
+    row-gap: 10px;
+    height: 483px;
+
+}
+
+
+.showcase-slide .one {
+    /* width: 280px; */
+    width: 290px;
+    display: flex;
+}
+
+
+.showcase-slide .two {
+    height: 170px;
+    /* width: 256px; */
+    width: 290px;
+}
+
+
+.showcase-slide .three {
+    height: 183px;
+    /* width: 280px; */
+    width: 290px;
+}
+
+
+.showcase-slide .four {
+    /* height: 299px;
+    margin-top: -114px; */
+    height: 307px;
+    margin-top: -122px;
+    width: 290px;
+}
+
+
+/* .swiper-showcase .swiper-slide{
+    width: 550px;
+} */
+
+
+.slide-img a {
+    width: 100%;
+}
+
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.laser-showcase-arena {
+    position: relative;
+}
+
+
+.laser-showcase-arena>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+
+
+.laser-showcase-arena .show-slider {
+    margin: 20px 0;
+}
+
+.hero-book-button {
+    /* margin-top: -100px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    /* top: 179px; */
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+
+.hero-section {
+    background: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/05/Laser-Tag-banner.png);
+    width: 100%;
+    /* height: 259px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
 
 
 
@@ -548,7 +987,12 @@ nav li a {
 
 
 
-footer img {
+
+
+
+
+
+#footer-img {
     position: relative;
     width: 100%;
     top: -155px;
@@ -558,24 +1002,29 @@ footer img {
 }
 
 
+
+
 .nav-logo {
-    /* margin-top: 30px; */
-    /* position: relative; */
+
+
     height: 80px;
     width: 122px;
 }
 
+
 .footer-nav .nav-logo img {
-    top: 0;
-    display: block;
-    height: 80px;
+
+
+    height: 100%;
     object-fit: cover;
     width: 100%;
 }
 
+
 footer {
     background: #4D1C8C;
 }
+
 
 .footer-nav {
     display: flex;
@@ -584,22 +1033,27 @@ footer {
     margin: 0 51px;
 }
 
+
 .footer-nav .footer-nav-links ul {
     display: flex;
     list-style: none;
     gap: 10px;
     flex-wrap: wrap;
 
+
 }
+
 
 .footer-nav .footer-nav-links a {
     color: white;
     text-decoration: none;
 }
 
+
 .book-party-block {
     display: flex;
 }
+
 
 .book-party-block a.btn.btn-book-ticket {
     font-size: 13px;
@@ -610,6 +1064,7 @@ footer {
     color: #000;
 }
 
+
 .book-party-block a.btn.btn-book-ticket {
     background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
     background-repeat: no-repeat;
@@ -617,20 +1072,24 @@ footer {
     height: 47px;
 }
 
+
 .nav-slider {
     overflow: hidden;
     /* background-color: #4D1C8C; */
 }
 
+
 .header-section {
     background-color: #6514AD;
 }
 
+
 .nav-slider .nav-swiper {
-    height: calc(10vh);
+    /* height: calc(10vh); */
     margin: 60px;
     /* background-color: transparent; */
 }
+
 
 .nav-slider .swiper-container-free-mode>.swiper-wrapper {
     transition-timing-function: linear;
@@ -638,34 +1097,43 @@ footer {
     border-top: 2px solid white;
 }
 
+
 .header-section .swiper-container-free-mode>.swiper-wrapper {
     border: none;
 }
 
+
 .header-section {
     height: 52px;
 }
+
 
 .nav-slider .swiper-slide {
     overflow: hidden;
     background-position: center center;
     background-size: cover;
 
-    background-color: #4D1C8C;
+
+    /* background-color: #4D1C8C; */
     width: 232px;
 }
 
+
 .header-section .swiper-slide {
-    background-color: #6514AD;
+    /* background-color: #6514AD; */
 }
+
 
 .header-section .swiper-slide {
     border-top: none;
 }
 
+
 .header-section .nav-swiper {
     margin-top: 0px;
 }
+
+
 
 
 .footer-copyright {
@@ -676,10 +1144,12 @@ footer {
     margin-bottom: 30px;
 }
 
+
 .footer-copyright p {
     font-size: 16px;
     color: #fff;
 }
+
 
 .footer-copyright .social-link-lists ul {
     list-style: none;
@@ -690,19 +1160,23 @@ footer {
     color: white;
 }
 
+
 .footer-copyright .social-link-lists li {
     font-size: 25px;
 }
 
+
 .social-link-lists i {
     color: white;
 }
+
 
 .nav-slide-card h5 {
     color: white;
     font-weight: 400;
     font-size: 12px;
 }
+
 
 .nav-slide-card {
     display: flex;
@@ -712,7 +1186,9 @@ footer {
         align-items: center; */
     height: 46px;
 
+
 }
+
 
 .nav-slide-content {
     display: flex;
@@ -722,12 +1198,17 @@ footer {
     text-align: left;
 }
 
+
 .nav-slide-content a {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
 }
+
+
+
+
 
 
 
@@ -740,13 +1221,17 @@ footer {
     margin-left: 9px;
 }
 
+
 .book-link-nav li,
 .contact-nav li {
     list-style: none;
     color: white;
 }
 
+
 @media (max-width: 786px) {
+
+
 
 
     .nav-links li {
@@ -754,7 +1239,15 @@ footer {
     }
 
 
+
+
 }
+
+
+
+
+
+
 
 
 
@@ -766,7 +1259,11 @@ footer {
         display: none;
     }
 
+
 }
+
+
+
 
 
 
@@ -776,16 +1273,20 @@ footer {
     }
 }
 
+
 @media (max-width:850px) {
+
 
     .nav-logo img {
         width: 80%;
     }
 
+
     .book-party-block {
         display: none;
     }
 }
+
 
 @media (max-width:860px) {
     .nav-logo {
@@ -793,26 +1294,32 @@ footer {
     }
 }
 
+
 @media (max-width:720px) {
     .footer-nav {
         flex-direction: column;
         gap: 10px;
     }
 
+
     .footer-nav-links ul {
         flex-wrap: wrap;
         justify-content: center;
     }
 
+
     footer #footer-img {
         display: none;
     }
+
 
     footer .container {
         padding-top: 24px;
     }
 
+
 }
+
 
 @media (max-width:590px) {
     .footer-copyright {
@@ -823,7 +1330,11 @@ footer {
     }
 
 
+
+
 }
+
+
 
 
 .nav-slide-logo {
@@ -833,6 +1344,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 
 .nav-slide-logo img {
     /* position: absolute; */
@@ -844,10 +1356,12 @@ footer {
     height: -webkit-fill-available;
 }
 
+
 .mySwiper .image-slides {
     width: 100%;
     height: 100%;
 }
+
 
 .mySwiper .image-slides img {
     width: 100%;
@@ -855,14 +1369,18 @@ footer {
     height: 100%;
 }
 
+
 .mySwiper .swiper-slide {
     background: none;
 }
+
 
 .mySwiper .swiper-button-next,
 .mySwiper .swiper-button-prev {
     color: #F0852D;
 }
+
+
 
 
 .contact-information.desktop-hide {
@@ -871,10 +1389,14 @@ footer {
 
 
 
+
+
+
 @media (max-width:590px) {
     .nav-bar .book-link-nav {
         display: none;
     }
+
 
     .nav-bar .logo {
         flex: 0 0 30%;
@@ -883,9 +1405,13 @@ footer {
 
 
 
+
+
+
 .site-menu {
     display: none;
 }
+
 
 #nav-toggle {
     position: absolute;
@@ -894,25 +1420,32 @@ footer {
     cursor: pointer;
 }
 
+
 @media (max-width:590px) {
     .site-menu {
+
 
         width: auto;
         padding: 0;
     }
+
 
     .nav-links-style {
         display: none;
     }
 
 
+
+
     .nav-mobile {
         display: block;
     }
 
+
     .site-menu {
         /* position: inherit !important; */
     }
+
 
     #nav-toggle span,
     #nav-toggle span:after,
@@ -928,13 +1461,17 @@ footer {
         background: #fff;
     }
 
+
     #nav-toggle span:before {
         top: -10px;
     }
 
+
     #nav-toggle span:after {
         bottom: -10px;
     }
+
+
 
 
     .site-menu {
@@ -943,9 +1480,11 @@ footer {
         width: 47px;
     }
 
+
     .site-menu .nav-links {
         display: none;
     }
+
 
     .site-menu .nav-links.visible {
         display: flex;
@@ -954,8 +1493,12 @@ footer {
         left: 0;
         width: auto;
 
+
         transform: scaleY(1);
     }
+
+
+
 
 
 
@@ -965,7 +1508,10 @@ footer {
     }
 
 
+
+
 }
+
 
 .site-menu .nav-links {
     transform-origin: top;
@@ -975,25 +1521,33 @@ footer {
 }
 
 
+
+
 #nav-toggle.active span {
     background-color: transparent;
 }
+
 
 #nav-toggle.active span:after,
 #nav-toggle.active span:before {
     top: 0;
 }
 
+
 #nav-toggle.active span:before {
     transform: rotate(45deg);
 }
+
 
 #nav-toggle.active span:after {
     transform: rotate(-45deg);
 }
 
 
+
+
 .submenu {
+
 
     display: none;
     /* Hidden by default */
@@ -1001,12 +1555,15 @@ footer {
     /* Indentation for submenu */
     /* background-color: #f9f9f9;  */
 
+
 }
+
 
 .site-menu .nav-links li.active>.submenu {
     display: block;
     /* Show submenu when the parent is active */
 }
+
 
 .site-menu .nav-links li.active>.submenu {
     display: flex;
@@ -1017,9 +1574,13 @@ footer {
 }
 
 
+
+
 .site-menu .nav-links .submenu {
     display: none;
 }
+
+
 
 
 .web-what-link {
@@ -1029,16 +1590,19 @@ footer {
     z-index: 999999 !important;
 }
 
+
 .web-what-link img {
     width: 45px;
     height: 45px;
     object-fit: cover;
 }
 
+
 @media (max-width:520px) {
     footer .nav-slider .nav-slide-card {
         /* width: min-content; */
     }
+
 
     footer .nav-slide-logo {
         width: 39px;
@@ -1048,6 +1612,7 @@ footer {
         justify-content: center;
     }
 
+
     footer .nav-slide-logo img {
         top: 0;
         width: 80%;
@@ -1056,23 +1621,28 @@ footer {
         flex: 0 0 30%;
     }
 
+
     footer .nav-slider .nav-swiper {
         width: 100%;
         margin-left: 8px;
     }
+
 
     header .nav-slide-logo img {
         width: 60%;
         flex: 0 0 30%;
     }
 
+
     header .nav-slide-logo {
         width: 50px;
     }
 
+
     /* header .swipper-slide{
   height: 40px;
 } */
+
 
     .header-section .nav-swiper {
         width: 80%;
@@ -1081,7 +1651,14 @@ footer {
     }
 
 
+
+
 }
+
+
+
+
+
 
 
 
@@ -1089,20 +1666,27 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+
     nav {
         justify-content: space-between;
     }
 
 
+
+
 }
+
 
 @media (min-width: 568px) and (max-width:1100px) {
     .nav-slider .nav-swiper {
-        height: calc(3vh);
+        /* height: calc(3vh); */
     }
 
 
+
+
 }
+
 
 @media (min-width: 568px) and (max-width:1024px) {
     .nav-slider .nav-swiper {
@@ -1110,12 +1694,95 @@ footer {
         height: 46px;
     }
 
+
     footer .container {
         margin-top: -120px;
     }
 
+
     .footer-nav {
         flex-direction: column;
     }
+
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .hero-section {
+        height: 256px;
+    }
+
+    .city-blocks {
+        justify-content: center;
+    }
+
+    .skyjumper-text-block {
+        font-size: 14px;
+    }
+
+    .skyjumper-text-block p {
+        margin: 0;
+    }
+
+    .yellow-btn {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 10px 20px;
+        min-width: 160px;
+    }
+
+    .laser-tag-activities {
+        column-gap: 11px;
+
+    }
+
+    .laser-tag-activity {
+        width: unset;
+        height: unset;
+        gap: 0;
+        flex-direction: column;
+        text-align: center;
+        max-width: 46%;
+        flex: 0 0 46%;
+    }
+
+    .laser-tag-activity .activity-img {
+        /* flex: 0 0 27%; */
+        width: 66px;
+        max-width: unset;
+        flex: none;
+    }
+
+    .game-play-option .paralist {
+        flex-direction: column;
+    }
+
+    .paralist .para {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .paralist .para p {
+        font-size: 14px;
+
+    }
+
+    .game-play-option .paralist {
+        padding: 0;
+        gap: 5px;
+        padding-top: 30px;
+    }
+
+    .legend-slide .legend-image {
+        height: 280px;
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
 
 }
