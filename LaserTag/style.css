@@ -1,104 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Flow+Circular&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 body {
-    font-family: "Poppins", serif;
-    background-color: white;
+  font-family: "Poppins", serif;
+  background-color: white;
 }
-
-
-
 
 nav {
-    display: flex;
-    padding: 10px;
-    justify-content: space-evenly;
-    position: relative;
-    /* background-image: linear-gradient(#6514AD, transparent); */
-    z-index: 2;
-    align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  position: relative;
+  /* background-image: linear-gradient(#6514AD, transparent); */
+  z-index: 2;
+  align-items: center;
 }
-
 
 .header-section .nav-swiper {
-    max-height: inherit;
-    height: 100%;
+  max-height: inherit;
+  height: 100%;
 }
-
-
-
-
-
 
 .swiper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 
 .image-slides .mobview {
-    display: none;
+  display: none;
 }
-
 
 .nav-links {
-    display: flex;
-    gap: 18px;
-    flex-wrap: wrap;
-    font-weight: 500;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  font-weight: 500;
 }
-
 
 .nav-links-style .nav-links li a:hover {
-    cursor: pointer;
-    color: #F0852D;
+  cursor: pointer;
+  color: #f0852d;
 }
-
 
 .nav-links-style .dropdown-menu li a:hover {
-    cursor: pointer;
-    color: #000;
+  cursor: pointer;
+  color: #000;
 }
-
 
 .nav-bar .logo {
-    height: 90px;
-    width: 118px;
-    flex: 0 0 15%;
+  height: 90px;
+  width: 118px;
+  flex: 0 0 15%;
 }
-
 
 .nav-bar .logo a {
-    height: 100%;
-    width: 100%;
-    display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
 }
-
 
 .logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 
 #myVideo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
 nav .dropdown-menu {
-    display: none;
-    /* position: absolute;
+  display: none;
+  /* position: absolute;
     top: 100%;
     left: 0;
     background-color: orangered;
@@ -106,78 +86,59 @@ nav .dropdown-menu {
     list-style: none; */
 }
 
-
-nav li.active>.dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    top: 20px;
-    left: 0;
-    padding: 14px;
-    gap: 24px;
-    border-radius: 0 0 10px 10px;
-    background: #F0852D;
-    width: max-content;
-    z-index: 1;
-    position: absolute;
+nav li.active > .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  left: 0;
+  padding: 14px;
+  gap: 24px;
+  border-radius: 0 0 10px 10px;
+  background: #f0852d;
+  width: max-content;
+  z-index: 1;
+  position: absolute;
 }
-
 
 nav .dropdown-menu a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-
-
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
-
 
 nav li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-
 
 .nav-links li {
-    position: relative;
+  position: relative;
 }
-
 
 .nav-links a {
-    color: #EFE6F6;
+  color: #efe6f6;
 }
-
-
-
-
-
 
 .container {
-    margin: 0 auto;
-    display: flex;
-    padding: 0 24px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-direction: column;
-    max-width: 1280px;
-    /* max-width: 1680px; */
+  margin: 0 auto;
+  display: flex;
+  padding: 0 24px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  max-width: 1280px;
+  /* max-width: 1680px; */
 }
-
-
-
-
-
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 
 /* .swiper-slide {
         text-align: center;
@@ -200,371 +161,308 @@ nav li a {
         flex: 1 1 auto;
     } */
 
-
-
-
-
-
 .slide-container {
-    max-width: 1120px;
-    width: 100%;
-    padding: 40px 0;
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
 }
-
 
 .slide-content {
-    margin: 0 40px;
-    overflow: hidden;
-    border-radius: 25px;
-    padding-bottom: 20px;
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+  padding-bottom: 20px;
 }
-
-
-
-
-
 
 .book-button {
-    background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/book-btn-bg.png);
-    width: 212px;
-    height: 63px;
-    background-repeat: no-repeat;
-    position: relative;
+  background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/book-btn-bg.png);
+  width: 212px;
+  height: 63px;
+  background-repeat: no-repeat;
+  position: relative;
 }
-
 
 .book-a-party {
-    position: absolute;
-    top: 14px;
-    left: 20px;
-    text-align: center;
-    color: black;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  text-align: center;
+  color: black;
 }
-
 
 .book-ticket-button {
-    background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
-    background-repeat: no-repeat;
-    width: 85px;
-    height: 46px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.15;
-    font-weight: 500;
+  background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 46px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.15;
+  font-weight: 500;
 }
-
 
 .book-ticket {
-    position: absolute;
-    padding: 1px;
-    text-align: center;
-    color: black;
+  position: absolute;
+  padding: 1px;
+  text-align: center;
+  color: black;
 }
-
 
 .book-ticket-button a,
 .book-button a {
-    color: black;
+  color: black;
 }
-
-
-
-
-
-
-
 
 .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #4070F4;
-    border-radius: 25px 25px 0 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070f4;
+  border-radius: 25px 25px 0 25px;
 }
-
 
 .overlay::before,
 .overlay::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: -40px;
-    height: 40px;
-    width: 40px;
-    background-color: #4070F4;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070f4;
 }
-
 
 .overlay::after {
-    border-radius: 0 25px 0 0;
-    background-color: #FFF;
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
 }
-
 
 .name {
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    font-family: "Bubblegum Sans", sans-serif;
-    padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  font-family: "Bubblegum Sans", sans-serif;
+  padding-bottom: 5px;
 }
-
 
 .description {
-    font-size: 14px;
-    color: white;
-    text-align: center;
+  font-size: 14px;
+  color: white;
+  text-align: center;
 }
-
 
 .swiper-navBtn {
-    color: #6E93f7;
-    transition: color 0.3s ease;
+  color: #6e93f7;
+  transition: color 0.3s ease;
 }
-
 
 .swiper-navBtn:hover {
-    color: #4070F4;
+  color: #4070f4;
 }
-
 
 .swiper-navBtn::before,
 .swiper-navBtn::after {
-    font-size: 38px;
+  font-size: 38px;
 }
-
 
 .swiper-button-next {
-    right: 0;
+  right: 0;
 }
-
 
 .swiper-button-prev {
-    left: 0;
+  left: 0;
 }
-
 
 .swiper-pagination-bullet {
-    background-color: #6E93f7;
-    opacity: 1;
+  background-color: #6e93f7;
+  opacity: 1;
 }
-
 
 .swiper-pagination-bullet-active {
-    background-color: #4070F4;
+  background-color: #4070f4;
 }
-
-
-
-
-
 
 .btn-book-now {
-    font-size: 20px;
-    color: #000000;
-    font-weight: 400;
-    font-family: "Bubblegum Sans";
-    text-decoration: none;
-    background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/11/btn-bg-pattern.webp);
-    background-size: 100% 100%;
-    width: 189px;
-    height: 47px;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Bubblegum Sans";
+  text-decoration: none;
+  background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/11/btn-bg-pattern.webp);
+  background-size: 100% 100%;
+  width: 189px;
+  height: 47px;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .header-swiper {
-    height: 42px;
+  height: 42px;
 }
-
 
 .hero-section {
-    height: 95vh;
-    margin-top: -110px;
+  height: 95vh;
+  margin-top: -110px;
 }
-
 
 .hero-image {
-    width: inherit;
-    height: inherit;
+  width: inherit;
+  height: inherit;
 }
-
 
 .hero-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 .hero-book-button {
-    /* margin-top: -100px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+  /* margin-top: -100px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
-
 
 .yellow-btn {
-    margin: 10px auto;
-    padding: 15px 60px;
-    background: #FDE403;
-    border-radius: 50px;
-    border-color: #FDE403;
-    font-size: 16px;
-    font-weight: 600;
+  margin: 10px auto;
+  padding: 15px 60px;
+  background: #fde403;
+  border-radius: 50px;
+  border-color: #fde403;
+  font-size: 16px;
+  font-weight: 600;
 }
-
 
 .skyjumper-text-block {
-    background: black;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
 }
-
 
 .section-space {
-    padding: 50px 0;
+  padding: 50px 0;
 }
-
 
 .lightup-skyjumper {
-    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/location-tags.png);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/location-tags.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .lightup-skyjumper .heading-holder,
 .game-play-option .heading-holder h2 {
-    color: white;
+  color: white;
 }
-
 
 .city-slider {
-    display: flex;
-    margin: 25px 0;
+  display: flex;
+  margin: 25px 0;
 }
-
 
 .city-blocks {
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-
-.city-blocks>* {
-    color: #ffffff;
+.city-blocks > * {
+  color: #ffffff;
 }
-
 
 .city-block {
-    color: white;
-    border: 2px solid #FDE403;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 14px;
-    width: 124px;
-    height: 54px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  color: white;
+  border: 2px solid #fde403;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 14px;
+  width: 124px;
+  height: 54px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-
 
 .city-block p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
-
 
 .city-block:hover {
-    background: #FDE403;
-    color: #000000;
-    border-color: #ffffff;
+  background: #fde403;
+  color: #000000;
+  border-color: #ffffff;
 }
-
 
 .address-block {
-    color: #000000;
-    border: 1px solid #FDE403;
-    background: #FDE403;
-    margin: 10px auto;
-    width: 380px;
-    padding: 15px 38px;
-    border-radius: 20px;
-    font-size: 18px;
-    height: 101px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    white-space: normal;
-    font-weight: 500;
-    overflow: hidden;
-    /* white-space: wrap; */
-    text-overflow: ellipsis;
+  color: #000000;
+  border: 1px solid #fde403;
+  background: #fde403;
+  margin: 10px auto;
+  width: 380px;
+  padding: 15px 38px;
+  border-radius: 20px;
+  font-size: 18px;
+  height: 101px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  font-weight: 500;
+  overflow: hidden;
+  /* white-space: wrap; */
+  text-overflow: ellipsis;
 }
-
 
 .everything-to-know {
-    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/benefits-section-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/benefits-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .everything-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 
 .everything-text-block {
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .everything-text-block .heading-holder h2 {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .everything-to-know .activity-block {
-    padding-right: 20px;
-
+  padding-right: 20px;
 }
-
 
 .everything-text-block .heading-holder span,
 .benefits-of-lasertag .heading-holder span {
-    color: #F5881F;
+  color: #f5881f;
 }
-
 
 .everything-text-block .text-holder {
-    font-size: 16px;
-    font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
 }
-
 
 .benefits-of-lasertag .heading-holder h2,
 .game-play-option .heading-holder h2,
@@ -572,1408 +470,1210 @@ nav li a {
 .sky-laser-tag .heading-holder h2,
 .custom-booking .heading-holder h2,
 .laser-showcase-arena .heading-holder h2 {
-    font-size: 35px;
-    font-weight: 600;
+  font-size: 35px;
+  font-weight: 600;
 }
-
-
-
 
 .laser-tag-activities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 67px;
-    margin-top: 30px;
-    margin-bottom: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 67px;
+  margin-top: 30px;
+  margin-bottom: -20px;
 }
-
 
 .laser-tag-activity {
-    display: flex;
-    align-items: center;
-    width: 290px;
-    height: 100px;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 100px;
+  gap: 10px;
 }
-
 
 .laser-tag-activity h4 {
-    font-size: 17px;
-    font-weight: 600;
-    color: #2C388D;
-    font-style: italic;
-    letter-spacing: 1px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #2c388d;
+  font-style: italic;
+  letter-spacing: 1px;
 }
-
 
 .laser-tag-activity .activity-img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-
 
 .laser-tag-activity .activity-img img {
-    width: 100%;
-    height: 70%;
-    object-fit: contain;
-    border-radius: 77%;
-    box-shadow: 1px 0px 6px #00000042;
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 77%;
+  box-shadow: 1px 0px 6px #00000042;
 }
-
 
 .laser-tag-activity .activity-img {
-    flex: 0 0 24%;
-    max-width: 24%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 0 0 24%;
+  max-width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .benefits-of-lasertag {
-    margin: 10px;
-    /* background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/benefits-bg.png); */
+  margin: 10px;
+  /* background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/benefits-bg.png); */
 }
-
 
 .game-play-option {
-    background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/game-play-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url(https://skyjumpertrampolinepark.com/wp-content/themes/skyjumper-child-theme/images/game-play-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .game-play-option .paralist {
-    display: flex;
-    color: #ffffff;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 60px;
-    gap: 26px;
-    padding-top: 30px;
+  display: flex;
+  color: #ffffff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 60px;
+  gap: 26px;
+  padding-top: 30px;
 }
-
 
 .paralist .para {
-    flex: 0 0 42%;
-    max-width: 43%;
+  flex: 0 0 42%;
+  max-width: 43%;
 }
 
-
 .laser-legends {
-    position: relative;
-    color: #ffffff;
+  position: relative;
+  color: #ffffff;
 }
 
 .laser-legends .heading-holder {
-    color: #ffffff;
-    z-index: 1;
-    padding: 0;
+  color: #ffffff;
+  z-index: 1;
+  padding: 0;
 }
 
-
-.laser-legends>img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+.laser-legends > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-
 
 .swiper-legend .legend-slide {
-    border: 1px solid #6F37D1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 5px;
-    padding: 17px 12px;
-    background: #19093E;
-    background: rgba(38, 12, 90, 0.40);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.40);
-    backdrop-filter: blur(6px);
-    height: inherit;
-    width: inherit;
+  border: 1px solid #6f37d1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  padding: 17px 12px;
+  background: #19093e;
+  background: rgba(38, 12, 90, 0.4);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  height: inherit;
+  width: inherit;
 }
-
 
 .legend-slide .legend-image {
-    padding: 0 30px;
+  padding: 0 30px;
 }
-
 
 .legend-slide .legend-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 
 .legend-slide .legend-desc {
-    text-align: center;
-    padding: 0 10px;
+  text-align: center;
+  padding: 0 10px;
 }
-
 
 .legend-slide .legend-desc h3 {
-    font-size: 20px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
 }
-
 
 .legend-slide .legend-desc p {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
-
 
 .laser-legends .legend-slides {
-    padding: 25px 0;
+  padding: 25px 0;
 }
-
 
 .sky-laser-tag .text-holder {
-    font-size: 24px;
-    font-weight: 600;
-    padding: 13px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 13px;
 }
-
 
 .sky-laser-tag .text-holder p {
-    line-height: 28px;
+  line-height: 28px;
 }
-
 
 .sky-laser-tag .video-block {
-    /* height: 70vh; */
-    height: 510px;
+  /* height: 70vh; */
+  height: 510px;
 }
-
 
 .sky-laser-tag .video-block iframe,
 .sky-laser-tag .card-video iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 
 .sky-laser-tag .video-list {
-    margin: 30px 0;
-    /* height: 317px; */
+  margin: 30px 0;
+  /* height: 317px; */
 }
-
 
 .sky-laser-tag .video-card-block {
-    padding: 0;
-    padding-right: 24px;
-    /* margin-right: 11px; */
+  padding: 0;
+  padding-right: 24px;
+  /* margin-right: 11px; */
 }
-
 
 .sky-laser-tag .video-card-block:last-of-type {
-    padding-right: 0;
+  padding-right: 0;
 }
-
 
 .sky-laser-tag .video-card {
-    width: auto;
-    height: auto;
-    /* background: pink; */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  width: auto;
+  height: auto;
+  /* background: pink; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
-
 
 .sky-laser-tag .video-card p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
-
-
-
 
 .sky-laser-tag .card-video {
-    /* height: 25vh; */
-    height: 300px;
+  /* height: 25vh; */
+  height: 300px;
 }
-
 
 .custom-booking {
-    position: relative;
+  position: relative;
 }
 
-
-.custom-booking>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.custom-booking > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 .custom-booking .sec-pos {
-    z-index: 1;
-    padding-bottom: 32px;
+  z-index: 1;
+  padding-bottom: 32px;
 }
-
 
 .custom-booking .text-holder {
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
 }
-
 
 .custom-booking .heading-holder h2 {
-    color: #ffffff;
+  color: #ffffff;
 }
-
 
 .custom-booking .form-block form {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 13px;
-    row-gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 13px;
+  row-gap: 8px;
 }
 
-
-.custom-booking .form-block form>* {
-    flex: 0 0 47%;
-    /* margin: 9px 0; */
-    max-width: 47%;
+.custom-booking .form-block form > * {
+  flex: 0 0 47%;
+  /* margin: 9px 0; */
+  max-width: 47%;
 }
-
 
 .form-block form input,
 select {
-    padding: 10px;
-    border: 1px solid grey;
-    border-radius: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 .form-block form input::placeholder {
-    color: #2C388D;
+  color: #2c388d;
 }
-
 
 .orange {
-    margin: 10px 0;
-    color: white;
-    background-color: #EC623C;
-    border: 1px solid #EC623C;
+  margin: 10px 0;
+  color: white;
+  background-color: #ec623c;
+  border: 1px solid #ec623c;
 }
-
 
 .form-block form select {
-    color: #2C388D;
+  color: #2c388d;
 }
 
-
 .showcase-slide {
-    display: flex;
-    flex-wrap: wrap;
-    /* width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 550px;
     column-gap: 10px;
     row-gap: 10px;
     height: 483px; */
-    width: 591px;
-    column-gap: 10px;
-    row-gap: 10px;
-    height: 483px;
-
+  width: 591px;
+  column-gap: 10px;
+  row-gap: 10px;
+  height: 483px;
 }
-
 
 .showcase-slide .one {
-    /* width: 280px; */
-    width: 290px;
-    display: flex;
+  /* width: 280px; */
+  width: 290px;
+  display: flex;
 }
-
 
 .showcase-slide .two {
-    height: 170px;
-    /* width: 256px; */
-    width: 290px;
+  height: 170px;
+  /* width: 256px; */
+  width: 290px;
 }
-
 
 .showcase-slide .three {
-    height: 183px;
-    /* width: 280px; */
-    width: 290px;
+  height: 183px;
+  /* width: 280px; */
+  width: 290px;
 }
-
 
 .showcase-slide .four {
-    /* height: 299px;
+  /* height: 299px;
     margin-top: -114px; */
-    height: 307px;
-    margin-top: -122px;
-    width: 290px;
+  height: 307px;
+  margin-top: -122px;
+  width: 290px;
 }
-
 
 /* .swiper-showcase .swiper-slide{
     width: 550px;
 } */
 
-
 .slide-img a {
-    width: 100%;
+  width: 100%;
 }
-
 
 .slide-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 
 .laser-showcase-arena {
-    position: relative;
+  position: relative;
 }
 
-
-.laser-showcase-arena>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: scaleX(-1);
+.laser-showcase-arena > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
 }
-
 
 .laser-showcase-arena .show-slider {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .hero-book-button {
-    /* margin-top: -100px; */
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    position: absolute;
-    /* top: 179px; */
-    bottom: 0px;
-    left: 0;
-    right: 0;
+  /* margin-top: -100px; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  /* top: 179px; */
+  bottom: 0px;
+  left: 0;
+  right: 0;
 }
-
 
 .hero-section {
-    background: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/05/Laser-Tag-banner.png);
-    width: 100%;
-    /* height: 259px; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-position: center;
-
+  background: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/05/Laser-Tag-banner.png);
+  width: 100%;
+  /* height: 259px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
 }
 
-.custom-booking .form-block form button{
-    display: flex;
-    justify-content: center;
- 
+.custom-booking .form-block form button {
+  display: flex;
+  justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer-img {
-    /* position: relative;
+  /* position: relative;
     width: 100%;
     top: -155px;
     height: 158px;
     z-index: 9999;
     display: block; */
-        position: relative;
-        width: 100%;
-        top: -88px;
-        height: 90px;
-        z-index: 9999;
-        display: block;
-
+  position: relative;
+  width: 100%;
+  top: -88px;
+  height: 90px;
+  z-index: 9999;
+  display: block;
 }
-
-
-
 
 .nav-logo {
-
-
-    height: 80px;
-    width: 122px;
+  height: 80px;
+  width: 122px;
 }
-
 
 .footer-nav .nav-logo img {
-
-
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
-
 
 footer {
-    background: #4D1C8C;
+  background: #4d1c8c;
 }
-
 
 .footer-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 0 51px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 51px; */
 }
-
 
 .footer-nav .footer-nav-links ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    flex-wrap: wrap;
-
-
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  flex-wrap: wrap;
 }
-
 
 .footer-nav .footer-nav-links a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
 
 .book-party-block {
-    display: flex;
+  display: flex;
 }
-
 
 .book-party-block a.btn.btn-book-ticket {
-    font-size: 13px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    line-height: 1.2;
-    text-align: center;
-    color: #000;
+  font-size: 13px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: #000;
 }
-
 
 .book-party-block a.btn.btn-book-ticket {
-    background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
-    background-repeat: no-repeat;
-    width: 84px;
-    height: 47px;
+  background-image: url(https://skyjumpertrampolinepark.com/wp-content/uploads/2024/09/ticket-bg.png);
+  background-repeat: no-repeat;
+  width: 84px;
+  height: 47px;
 }
-
 
 .nav-slider {
-    overflow: hidden;
-    /* background-color: #4D1C8C; */
+  overflow: hidden;
+  /* background-color: #4D1C8C; */
 }
-
 
 .header-section {
-    background-color: #6514AD;
+  background-color: #6514ad;
 }
-
 
 .nav-slider .nav-swiper {
-    /* height: calc(10vh); */
-    /* margin: 60px; */
-    margin: 12px 0;
+  /* height: calc(10vh); */
+  /* margin: 60px; */
+  margin: 12px 0;
 
-    /* background-color: transparent; */
+  /* background-color: transparent; */
 }
 
-
-.nav-slider .swiper-container-free-mode>.swiper-wrapper {
-    transition-timing-function: linear;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
+.nav-slider .swiper-container-free-mode > .swiper-wrapper {
+  transition-timing-function: linear;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
 }
 
-
-.header-section .swiper-container-free-mode>.swiper-wrapper {
-    border: none;
+.header-section .swiper-container-free-mode > .swiper-wrapper {
+  border: none;
 }
-
 
 .header-section {
-    height: 52px;
+  height: 52px;
 }
-
 
 .nav-slider .swiper-slide {
-    overflow: hidden;
-    background-position: center center;
-    background-size: cover;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
 
-
-    /* background-color: #4D1C8C; */
-    width: 232px;
+  /* background-color: #4D1C8C; */
+  width: 232px;
 }
-
 
 .header-section .swiper-slide {
-    /* background-color: #6514AD; */
+  /* background-color: #6514AD; */
 }
-
 
 .header-section .swiper-slide {
-    border-top: none;
+  border-top: none;
 }
-
 
 .header-section .nav-swiper {
-    margin-top: 0px;
+  margin-top: 0px;
 }
-
-
-
 
 .footer-copyright {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 57px;
-    margin: 0 50px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 57px;
+  margin: 0 50px;
+  margin-bottom: 30px;
 }
-
 
 .footer-copyright p {
-    font-size: 16px;
-    color: #fff;
+  font-size: 16px;
+  color: #fff;
 }
-
 
 .footer-copyright .social-link-lists ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
-    color: white;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
-
 
 .footer-copyright .social-link-lists li {
-    font-size: 25px;
+  font-size: 25px;
 }
-
 
 .social-link-lists i {
-    color: white;
+  color: white;
 }
-
 
 .nav-slide-card h5 {
-    color: white;
-    font-weight: 400;
-    font-size: 12px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
 }
-
 
 .nav-slide-card {
-    display: flex;
-    position: relative;
-    width: auto;
-    /* justify-content: center;
+  display: flex;
+  position: relative;
+  width: auto;
+  /* justify-content: center;
         align-items: center; */
-    height: 46px;
-
-
+  height: 46px;
 }
-
 
 .nav-slide-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: left;
 }
-
 
 .nav-slide-content a {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
-
-
-
-
-
-
-
 
 .book-link-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-left: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: 9px;
 }
-
 
 .book-link-nav li,
 .contact-nav li {
-    list-style: none;
-    color: white;
+  list-style: none;
+  color: white;
 }
-
 
 @media (max-width: 786px) {
-
-
-
-
-    .nav-links li {
-        flex: 1 1 calc(50% - 10px);
-    }
-
-
-
-
+  .nav-links li {
+    flex: 1 1 calc(50% - 10px);
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:920px) {
-    .nav-links-style {
-        display: none;
-    }
-
-
+@media (max-width: 920px) {
+  .nav-links-style {
+    display: none;
+  }
 }
 
-
-
-
-
-
-@media (max-width:800px) {
-    .footer-nav .book-party-block {
-        display: none;
-    }
+@media (max-width: 800px) {
+  .footer-nav .book-party-block {
+    display: none;
+  }
 }
 
+@media (max-width: 850px) {
+  .nav-logo img {
+    width: 80%;
+  }
 
-@media (max-width:850px) {
-
-
-    .nav-logo img {
-        width: 80%;
-    }
-
-
-    .book-party-block {
-        display: none;
-    }
+  .book-party-block {
+    display: none;
+  }
 }
 
-
-@media (max-width:860px) {
-    .nav-logo {
-        flex: 0 0 20%;
-    }
+@media (max-width: 860px) {
+  .nav-logo {
+    flex: 0 0 20%;
+  }
 }
 
+@media (max-width: 720px) {
+  .footer-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-@media (max-width:720px) {
-    .footer-nav {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .footer-nav-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  footer #footer-img {
+    display: none;
+  }
 
-    .footer-nav-links ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-
-    footer #footer-img {
-        display: none;
-    }
-
-
-    footer .container {
-        padding-top: 24px;
-    }
-
-
+  footer .container {
+    padding-top: 24px;
+  }
 }
 
-
-@media (max-width:590px) {
-    .footer-copyright {
-        flex-direction: column;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-
+@media (max-width: 590px) {
+  .footer-copyright {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-
-
 
 .nav-slide-logo {
-    width: 70px;
+  width: 70px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-slide-logo img {
+  /* position: absolute; */
+  top: 0;
+  /* left: 14px; */
+  width: 45%;
+  /* height: 31px; */
+  object-fit: contain;
+  height: -webkit-fill-available;
+}
+
+.mySwiper .image-slides {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .image-slides img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide {
+  background: none;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #f0852d;
+}
+
+.contact-information.desktop-hide {
+  display: none;
+}
+
+@media (max-width: 590px) {
+  .nav-bar .book-link-nav {
+    display: none;
+  }
+
+  .nav-bar .logo {
+    flex: 0 0 30%;
+  }
+}
+
+.site-menu {
+  display: none;
+}
+
+#nav-toggle {
+  position: absolute;
+  /* left: 0;
+    top: 0; */
+  cursor: pointer;
+}
+
+@media (max-width: 590px) {
+  .site-menu {
+    width: auto;
+    padding: 0;
+  }
+
+  .nav-links-style {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .site-menu {
+    /* position: inherit !important; */
+  }
+
+  #nav-toggle span,
+  #nav-toggle span:after,
+  #nav-toggle span:before {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 5px;
+    width: 35px;
+    position: absolute;
+    display: block;
+    content: "";
+    transition: 0.3s ease-in-out;
+    background: #fff;
+  }
+
+  #nav-toggle span:before {
+    top: -10px;
+  }
+
+  #nav-toggle span:after {
+    bottom: -10px;
+  }
+
+  .site-menu {
+    display: flex;
+    height: 10px;
+    width: 47px;
+  }
+
+  .site-menu .nav-links {
+    display: none;
+  }
+
+  .site-menu .nav-links.visible {
+    display: flex;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    width: auto;
+
+    transform: scaleY(1);
+  }
+
+  .site-menu ul {
+    background: #ec623c;
+    padding: 15px 10px;
+  }
+}
+
+.site-menu .nav-links {
+  transform-origin: top;
+  /* Curtain effect starts from the top */
+  transition: transform 0.5s ease;
+  transform: scaleY(0);
+}
+
+#nav-toggle.active span {
+  background-color: transparent;
+}
+
+#nav-toggle.active span:after,
+#nav-toggle.active span:before {
+  top: 0;
+}
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+.submenu {
+  display: none;
+  /* Hidden by default */
+  padding-left: 20px;
+  /* Indentation for submenu */
+  /* background-color: #f9f9f9;  */
+}
+
+.site-menu .nav-links li.active > .submenu {
+  display: block;
+  /* Show submenu when the parent is active */
+}
+
+.site-menu .nav-links li.active > .submenu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+.site-menu .nav-links .submenu {
+  display: none;
+}
+
+.web-what-link {
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  z-index: 999999 !important;
+}
+
+.web-what-link img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+@media (max-width: 520px) {
+  footer .nav-slider .nav-slide-card {
+    /* width: min-content; */
+  }
+
+  footer .nav-slide-logo {
+    width: 39px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-
-.nav-slide-logo img {
-    /* position: absolute; */
+  footer .nav-slide-logo img {
     top: 0;
-    /* left: 14px; */
-    width: 45%;
-    /* height: 31px; */
+    width: 80%;
     object-fit: contain;
     height: -webkit-fill-available;
-}
+    flex: 0 0 30%;
+  }
 
-
-.mySwiper .image-slides {
+  footer .nav-slider .nav-swiper {
     width: 100%;
-    height: 100%;
-}
-
-
-.mySwiper .image-slides img {
-    width: 100%;
-    object-fit: contain;
-    height: 100%;
-}
-
-
-.mySwiper .swiper-slide {
-    background: none;
-}
-
-
-.mySwiper .swiper-button-next,
-.mySwiper .swiper-button-prev {
-    color: #F0852D;
-}
-
-
-
-
-.contact-information.desktop-hide {
-    display: none;
-}
-
-
-
-
-
-
-@media (max-width:590px) {
-    .nav-bar .book-link-nav {
-        display: none;
-    }
-
-
-    .nav-bar .logo {
-        flex: 0 0 30%;
-    }
-}
-
-
-
-
-
-
-.site-menu {
-    display: none;
-}
-
-
-#nav-toggle {
-    position: absolute;
-    /* left: 0;
-    top: 0; */
-    cursor: pointer;
-}
-
-
-@media (max-width:590px) {
-    .site-menu {
-
-
-        width: auto;
-        padding: 0;
-    }
-
-
-    .nav-links-style {
-        display: none;
-    }
-
-
-
-
-    .nav-mobile {
-        display: block;
-    }
-
-
-    .site-menu {
-        /* position: inherit !important; */
-    }
-
-
-    #nav-toggle span,
-    #nav-toggle span:after,
-    #nav-toggle span:before {
-        cursor: pointer;
-        border-radius: 1px;
-        height: 5px;
-        width: 35px;
-        position: absolute;
-        display: block;
-        content: "";
-        transition: .3s ease-in-out;
-        background: #fff;
-    }
-
-
-    #nav-toggle span:before {
-        top: -10px;
-    }
-
-
-    #nav-toggle span:after {
-        bottom: -10px;
-    }
-
-
-
-
-    .site-menu {
-        display: flex;
-        height: 10px;
-        width: 47px;
-    }
-
-
-    .site-menu .nav-links {
-        display: none;
-    }
-
-
-    .site-menu .nav-links.visible {
-        display: flex;
-        position: absolute;
-        top: 81px;
-        left: 0;
-        width: auto;
-
-
-        transform: scaleY(1);
-    }
-
-
-
-
-
-
-    .site-menu ul {
-        background: #EC623C;
-        padding: 15px 10px;
-    }
-
-
-
-
-}
-
-
-.site-menu .nav-links {
-    transform-origin: top;
-    /* Curtain effect starts from the top */
-    transition: transform 0.5s ease;
-    transform: scaleY(0);
-}
-
-
-
-
-#nav-toggle.active span {
-    background-color: transparent;
-}
-
-
-#nav-toggle.active span:after,
-#nav-toggle.active span:before {
-    top: 0;
-}
-
-
-#nav-toggle.active span:before {
-    transform: rotate(45deg);
-}
-
-
-#nav-toggle.active span:after {
-    transform: rotate(-45deg);
-}
-
-
-
-
-.submenu {
-
-
-    display: none;
-    /* Hidden by default */
-    padding-left: 20px;
-    /* Indentation for submenu */
-    /* background-color: #f9f9f9;  */
-
-
-}
-
-
-.site-menu .nav-links li.active>.submenu {
-    display: block;
-    /* Show submenu when the parent is active */
-}
-
-
-.site-menu .nav-links li.active>.submenu {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: -15px;
-}
-
-
-
-
-.site-menu .nav-links .submenu {
-    display: none;
-}
-
-
-
-
-.web-what-link {
-    position: fixed;
-    bottom: 7px;
-    right: 7px;
-    z-index: 999999 !important;
-}
-
-
-.web-what-link img {
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
-}
-
-
-@media (max-width:520px) {
-    footer .nav-slider .nav-slide-card {
-        /* width: min-content; */
-    }
-
-
-    footer .nav-slide-logo {
-        width: 39px;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    footer .nav-slide-logo img {
-        top: 0;
-        width: 80%;
-        object-fit: contain;
-        height: -webkit-fill-available;
-        flex: 0 0 30%;
-    }
-
-
-    footer .nav-slider .nav-swiper {
-        width: 100%;
-        margin-left: 8px;
-    }
-
-
-    header .nav-slide-logo img {
-        width: 60%;
-        flex: 0 0 30%;
-    }
-
-
-    header .nav-slide-logo {
-        width: 50px;
-    }
-
-
-    /* header .swipper-slide{
+    margin-left: 8px;
+  }
+
+  header .nav-slide-logo img {
+    width: 60%;
+    flex: 0 0 30%;
+  }
+
+  header .nav-slide-logo {
+    width: 50px;
+  }
+
+  /* header .swipper-slide{
   height: 40px;
 } */
 
-
-    .header-section .nav-swiper {
-        width: 80%;
-        height: 62%;
-        margin-left: 32px;
-    }
-
-
-
-
+  .header-section .nav-swiper {
+    width: 80%;
+    height: 62%;
+    margin-left: 32px;
+  }
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 600px) {
-
-
-    nav {
-        justify-content: space-between;
-    }
-
-
-
-
+  nav {
+    justify-content: space-between;
+  }
 }
 
-
-@media (min-width: 568px) and (max-width:1100px) {
-    .nav-slider .nav-swiper {
-        /* height: calc(3vh); */
-    }
-
-
-
-
+@media (min-width: 568px) and (max-width: 1100px) {
+  .nav-slider .nav-swiper {
+    /* height: calc(3vh); */
+  }
 }
 
+@media (min-width: 568px) and (max-width: 1024px) {
+  .nav-slider .nav-swiper {
+    /* height: calc(3vh);    */
+    height: 46px;
+  }
 
-@media (min-width: 568px) and (max-width:1024px) {
-    .nav-slider .nav-swiper {
-        /* height: calc(3vh);    */
-        height: 46px;
-    }
+  footer .container {
+    /* margin-top: -120px; */
+  }
 
-
-    footer .container {
-        /* margin-top: -120px; */
-    }
-
-
-    .footer-nav {
-        flex-direction: column;
-    }
-
-
+  .footer-nav {
+    flex-direction: column;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  .hero-section {
+    height: 256px;
+  }
 
+  .city-blocks {
+    justify-content: center;
+  }
 
+  .skyjumper-text-block {
+    font-size: 14px;
+  }
 
-@media screen and (max-width:600px) {
-    .hero-section {
-        height: 256px;
-    }
+  .skyjumper-text-block p {
+    margin: 0;
+  }
 
-    .city-blocks {
-        justify-content: center;
-    }
+  .yellow-btn {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    min-width: 160px;
+  }
 
-    .skyjumper-text-block {
-        font-size: 14px;
-    }
+  .laser-tag-activities {
+    column-gap: 11px;
+  }
 
-    .skyjumper-text-block p {
-        margin: 0;
-    }
+  .laser-tag-activity {
+    width: unset;
+    height: unset;
+    gap: 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 46%;
+    flex: 0 0 46%;
+  }
 
-    .yellow-btn {
-        font-size: 18px;
-        font-weight: 500;
-        padding: 10px 20px;
-        min-width: 160px;
-    }
+  .laser-tag-activity .activity-img {
+    /* flex: 0 0 27%; */
+    width: 66px;
+    max-width: unset;
+    flex: none;
+  }
 
-    .laser-tag-activities {
-        column-gap: 11px;
+  .game-play-option .paralist {
+    flex-direction: column;
+  }
 
-    }
+  .paralist .para {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 
-    .laser-tag-activity {
-        width: unset;
-        height: unset;
-        gap: 0;
-        flex-direction: column;
-        text-align: center;
-        max-width: 46%;
-        flex: 0 0 46%;
-    }
+  .paralist .para p {
+    font-size: 14px;
+  }
 
-    .laser-tag-activity .activity-img {
-        /* flex: 0 0 27%; */
-        width: 66px;
-        max-width: unset;
-        flex: none;
-    }
+  .game-play-option .paralist {
+    padding: 0;
+    gap: 5px;
+    padding-top: 30px;
+  }
 
-    .game-play-option .paralist {
-        flex-direction: column;
-    }
+  .legend-slide .legend-image {
+    height: 280px;
 
-    .paralist .para {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 
-    .paralist .para p {
-        font-size: 14px;
+  .sky-laser-tag .video-card-block {
+    padding-right: 0;
+  }
 
-    }
+  .everything-text-block .heading-holder h2,
+  .lightup-skyjumper .heading-holder h2,
+  .benefits-of-lasertag .heading-holder h2,
+  .laser-showcase-arena .heading-holder h2,
+  .sky-laser-tag .heading-holder h2,
+  .custom-booking .heading-holder h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 32px;
+  }
+  .sky-laser-tag .text-holder p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .laser-showcase-arena .heading-holder h2 {
+    color: #333333;
+  }
+  .sky-laser-tag .text-holder {
+    padding: 0 12px;
+    padding-top: 5px;
+  }
+  .sky-laser-tag .video-card p {
+    text-align: center;
+  }
+  .everything-text-block .heading-holder h2 {
+    /* line-height: 32px; */
+  }
+  .everything-text-block {
+    margin-top: 34px;
+    gap: 0;
+  }
+  .everything-text-block .text-holder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
 
-    .game-play-option .paralist {
-        padding: 0;
-        gap: 5px;
-        padding-top: 30px;
-    }
+  .benefits-of-lasertag {
+    padding: 20px 0;
+  }
 
-    .legend-slide .legend-image {
-        height: 280px;
+  .laser-tag-activity h4 {
+    font-size: 14px;
+  }
+  .laser-tag-activity .activity-img img {
+    height: 66%;
+  }
+  .legend-slide .legend-desc p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .legend-slide .legend-desc h3 {
+    font-size: 16px;
+    font-weight: 600;
+  }
 
-        align-items: center;
-        display: flex;
-        justify-content: center;
-    }
+  .custom-booking .form-block form > *:not(:last-child) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 
-    .sky-laser-tag .video-card-block {
-        padding-right: 0;
-    }
+  .custom-booking .form-block form button {
+    margin: 10px auto;
+  }
+  .custom-booking .heading-holder h2 br {
+    display: none;
+  }
 
-    .everything-text-block .heading-holder h2,
-    .lightup-skyjumper .heading-holder h2,
-    .benefits-of-lasertag .heading-holder h2,
-    .laser-showcase-arena .heading-holder h2,
-    .sky-laser-tag .heading-holder h2,
-    .custom-booking .heading-holder h2 {
-        
-        font-size: 24px;
-        font-weight: 600;
-        text-transform: uppercase;
-        line-height: 32px;
-    }
-    .sky-laser-tag .text-holder p {
-        font-size: 18px;
-        line-height: 22px;
-    }
-    .laser-showcase-arena .heading-holder h2{
-        color: #333333;
-    }
-    .sky-laser-tag .text-holder {
-        padding: 0 12px;
-        padding-top: 5px;
-    }
-    .sky-laser-tag .video-card p {
-        text-align: center;
-    }
-    .everything-text-block .heading-holder h2{
-        /* line-height: 32px; */
-    }
-    .everything-text-block {
-        margin-top: 34px;
-        gap: 0;
-        
-    }
-    .everything-text-block .text-holder {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 24px;
-    }
-
-    .benefits-of-lasertag {
-        padding: 20px 0;
-    }
-
-    .laser-tag-activity h4 {
-        font-size: 14px;
-    }
-    .laser-tag-activity .activity-img img {
-        height: 66%;
-    }
-    .legend-slide .legend-desc p {
-        font-size: 14px;
-        font-weight: 400;
-    }
-    .legend-slide .legend-desc h3 {
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .custom-booking .form-block form>*:not(:last-child) {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    
-    .custom-booking .form-block form button{
-        margin: 10px auto;
-    }
-    .custom-booking .heading-holder h2 br {
-        display: none;
-    }
-
-    .custom-booking .text-holder {
-        font-size: 16px;
-    }
-    .sky-laser-tag .video-block {
-        height: unset;
-    }
-    
-
-
+  .custom-booking .text-holder {
+    font-size: 16px;
+  }
+  .sky-laser-tag .video-block {
+    height: unset;
+  }
 }
 
 .swiper-legend .swiper-pagination {
-        position: absolute;
-
+  position: absolute;
 }
 .sky-laser-tag {
-    color: #333333;
+  color: #333333;
 }
 
-
-
-@media screen and (min-width:600px) and (max-width:1280px) {
-    .city-blocks>*{
-        flex: 0 0 18%;
-        max-width: 18%;
-    }
+@media screen and (min-width: 600px) and (max-width: 1280px) {
+  .city-blocks > * {
+    flex: 0 0 18%;
+    max-width: 18%;
+  }
 }
-@media screen and (min-width:591px) and (max-width:690px) {
-    .laser-tag-activities>*{
-        width: 240px;
-        height: 115px;
-    }
-    .laser-tag-activity .activity-img img {
-        height: 58%;
-    }
+@media screen and (min-width: 591px) and (max-width: 690px) {
+  .laser-tag-activities > * {
+    width: 240px;
+    height: 115px;
+  }
+  .laser-tag-activity .activity-img img {
+    height: 58%;
+  }
 }
 
-@media screen and (max-width:500px)  {
-    .city-blocks>*{
-         flex: 0 0 41%; 
-        max-width: 41%; 
-    }
-
-   
+@media screen and (max-width: 500px) {
+  .city-blocks > * {
+    flex: 0 0 41%;
+    max-width: 41%;
+  }
 }
 
-@media screen and (min-width:770px) and (max-width:1024px){
-    .custom-booking .form-block form>*:not(:last-child) {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .custom-booking .form-block form > *:not(:last-child) {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
-@media screen and (min-width:591px) and (max-width:769px){
-    .custom-booking .form-block form>*:not(:last-child) {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+@media screen and (min-width: 591px) and (max-width: 769px) {
+  .custom-booking .form-block form > *:not(:last-child) {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 
-    .custom-booking .form-block form select{
-        height: 51px;
-    }
+  .custom-booking .form-block form select {
+    height: 51px;
+  }
 }
 
 .city-block {
-    width: 114px;
-    height: 58px;
+  width: 114px;
+  height: 58px;
 }
 
-.showcase-masonary{margin:0 10px;}
-    .laser-legends .card-holder .card-laser h3 {font-family: 'Poppins'; color: #FFF;text-align: center;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal; padding-top: 6px;}
-.laser-legends .card-holder .card-laser p {color: #FFF;text-align: center;font-size: 16px;font-style: normal;font-weight: 400; line-height: normal; padding: 8px 13px 0;}
-.laser-showcase .heading-holder {padding-bottom: 24px;}
-.laser-showcase .heading-holder h2 {text-transform:uppercase;font-family: 'Poppins';color: #333;font-size: 35px;font-style: normal;font-weight: 600;line-height: 1.2;}
-.laser-showcase .showcase-masonary {-moz-column-count: 4;-moz-column-gap: 16px; -moz-column-width: 25%;-webkit-column-count: 4;
--webkit-column-gap: 16px;-webkit-column-width: 25%;column-count: 4; column-gap: 16px; column-width: 25%;}
-.showcase-masonary .mason-box {background-color: #fff; display: flex;justify-content: center;align-items: center;margin-bottom: 16px;min-width: 256px;}
-.showcase-masonary .mason-box a { display: block; width: 100%; padding: 0;  margin: 0; height: 100%;}
-.showcase-masonary .one,.showcase-masonary .four { height: 295px;}
-.showcase-masonary .two,.showcase-masonary .three {height: 183px;}
-.showcase-masonary .five { height: 307px;}
-.showcase-masonary .six { height: 171px;}
-.showcase-masonary .seven {height: 132px;}
-.showcase-masonary .eight { height: 346px;}
-.showcase-masonary .mason-box img {height: 100%; width: 100%; object-fit: cover;}
+.showcase-masonary {
+  margin: 0 10px;
+}
+.laser-showcase-arena .heading-holder {
+  padding-bottom: 24px;
+}
+.laser-showcase-arena .heading-holder h2 {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  color: #333;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.laser-showcase-arena .showcase-masonary {
+  -moz-column-count: 4;
+  -moz-column-gap: 16px;
+  -moz-column-width: 25%;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 16px;
+  -webkit-column-width: 25%;
+  column-count: 4;
+  column-gap: 16px;
+  column-width: 25%;
+}
+.showcase-masonary .mason-box {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  min-width: 256px;
+}
+.showcase-masonary .mason-box a {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.showcase-masonary .one,
+.showcase-masonary .four {
+  height: 295px;
+}
+.showcase-masonary .two,
+.showcase-masonary .three {
+  height: 183px;
+}
+.showcase-masonary .five {
+  height: 307px;
+}
+.showcase-masonary .six {
+  height: 171px;
+}
+.showcase-masonary .seven {
+  height: 132px;
+}
+.showcase-masonary .eight {
+  height: 346px;
+}
+.showcase-masonary .mason-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 @media (max-width: 599px) {
-    .laser-showcase .showcase-masonary {-moz-column-count: 2;-moz-column-gap: 8px;-moz-column-width: 25%;-webkit-column-count: 2;-webkit-column-gap: 8px;-webkit-column-width: 25%;column-count: 2;column-gap: 8px;column-width: 25%;}
-  .showcase-masonary .mason-box {margin-bottom: 8px;min-width: 50%;}
-  .showcase-masonary .one,.showcase-masonary .four {height: 295px;}
-  .showcase-masonary .two,.showcase-masonary .three {height: 183px;}
-  .showcase-masonary .five {height: 307px;}
-  .showcase-masonary .six {height: 171px;}
-  .showcase-masonary .seven {height: 132px;}
-  .showcase-masonary .eight {height: 346px;}
+  .laser-showcase-arena .showcase-masonary {
+    -moz-column-count: 2;
+    -moz-column-gap: 8px;
+    -moz-column-width: 25%;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 8px;
+    -webkit-column-width: 25%;
+    column-count: 2;
+    column-gap: 8px;
+    column-width: 25%;
+  }
+  .showcase-masonary .mason-box {
+    margin-bottom: 8px;
+    min-width: 50%;
+  }
+  .showcase-masonary .one,
+  .showcase-masonary .four {
+    height: 295px;
+  }
+  .showcase-masonary .two,
+  .showcase-masonary .three {
+    height: 183px;
+  }
+  .showcase-masonary .five {
+    height: 307px;
+  }
+  .showcase-masonary .six {
+    height: 171px;
+  }
+  .showcase-masonary .seven {
+    height: 132px;
+  }
+  .showcase-masonary .eight {
+    height: 346px;
+  }
 }
 
+@media screen and (min-width:926px) and (max-width:1100px){
+    .laser-showcase-arena .showcase-masonary {
+        column-gap: 10px;
+    }
+    .showcase-masonary .mason-box {
+        min-width: 216px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:925px){
+    .laser-showcase-arena .showcase-masonary {
+        column-gap: 14px;
+    }
+    .showcase-masonary .mason-box {
+        min-width: 141px;
+    }
+}
