@@ -21,7 +21,7 @@ nav {
     padding: 10px;
     justify-content: space-evenly;
     position: relative;
-    background-image: linear-gradient(#6514AD, transparent);
+    /* background-image: linear-gradient(#6514AD, transparent); */
     z-index: 2;
     align-items: center;
 }
@@ -477,7 +477,7 @@ nav li a {
 
 .city-block {
     color: white;
-    border: 2px solid yellow;
+    border: 2px solid #FDE403;
     text-align: center;
     padding: 10px 10px;
     border-radius: 14px;
@@ -495,7 +495,7 @@ nav li a {
 
 
 .city-block:hover {
-    background: #ffff00;
+    background: #FDE403;
     color: #000000;
     border-color: #ffffff;
 }
@@ -503,16 +503,16 @@ nav li a {
 
 .address-block {
     color: #000000;
-    border: 1px solid yellow;
-    background: yellow;
+    border: 1px solid #FDE403;
+    background: #FDE403;
     margin: 10px auto;
-    width: 369px;
-    padding: 20px;
+    width: 380px;
+    padding: 15px 38px;
     border-radius: 20px;
     font-size: 18px;
-    height: 96px;
+    height: 101px;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     white-space: normal;
     font-weight: 500;
@@ -546,6 +546,11 @@ nav li a {
 .everything-text-block .heading-holder h2 {
     font-size: 32px;
     font-weight: 600;
+}
+
+.everything-to-know .activity-block {
+    padding-right: 20px;
+
 }
 
 
@@ -972,7 +977,14 @@ select {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-position: center;
 
+}
+
+.custom-booking .form-block form button{
+    display: flex;
+    justify-content: center;
+ 
 }
 
 
@@ -993,12 +1005,19 @@ select {
 
 
 #footer-img {
-    position: relative;
+    /* position: relative;
     width: 100%;
     top: -155px;
     height: 158px;
     z-index: 9999;
-    display: block;
+    display: block; */
+        position: relative;
+        width: 100%;
+        top: -88px;
+        height: 90px;
+        z-index: 9999;
+        display: block;
+
 }
 
 
@@ -1030,7 +1049,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 51px;
+    /* margin: 0 51px; */
 }
 
 
@@ -1086,7 +1105,9 @@ footer {
 
 .nav-slider .nav-swiper {
     /* height: calc(10vh); */
-    margin: 60px;
+    /* margin: 60px; */
+    margin: 12px 0;
+
     /* background-color: transparent; */
 }
 
@@ -1696,7 +1717,7 @@ footer {
 
 
     footer .container {
-        margin-top: -120px;
+        /* margin-top: -120px; */
     }
 
 
@@ -1784,5 +1805,175 @@ footer {
         justify-content: center;
     }
 
+    .sky-laser-tag .video-card-block {
+        padding-right: 0;
+    }
+
+    .everything-text-block .heading-holder h2,
+    .lightup-skyjumper .heading-holder h2,
+    .benefits-of-lasertag .heading-holder h2,
+    .laser-showcase-arena .heading-holder h2,
+    .sky-laser-tag .heading-holder h2,
+    .custom-booking .heading-holder h2 {
+        
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 32px;
+    }
+    .sky-laser-tag .text-holder p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .laser-showcase-arena .heading-holder h2{
+        color: #333333;
+    }
+    .sky-laser-tag .text-holder {
+        padding: 0 12px;
+        padding-top: 5px;
+    }
+    .sky-laser-tag .video-card p {
+        text-align: center;
+    }
+    .everything-text-block .heading-holder h2{
+        /* line-height: 32px; */
+    }
+    .everything-text-block {
+        margin-top: 34px;
+        gap: 0;
+        
+    }
+    .everything-text-block .text-holder {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .benefits-of-lasertag {
+        padding: 20px 0;
+    }
+
+    .laser-tag-activity h4 {
+        font-size: 14px;
+    }
+    .laser-tag-activity .activity-img img {
+        height: 66%;
+    }
+    .legend-slide .legend-desc p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .legend-slide .legend-desc h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .custom-booking .form-block form>*:not(:last-child) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .custom-booking .form-block form button{
+        margin: 10px auto;
+    }
+    .custom-booking .heading-holder h2 br {
+        display: none;
+    }
+
+    .custom-booking .text-holder {
+        font-size: 16px;
+    }
+    .sky-laser-tag .video-block {
+        height: unset;
+    }
+    
+
 
 }
+
+.swiper-legend .swiper-pagination {
+        position: absolute;
+
+}
+.sky-laser-tag {
+    color: #333333;
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:1280px) {
+    .city-blocks>*{
+        flex: 0 0 18%;
+        max-width: 18%;
+    }
+}
+@media screen and (min-width:591px) and (max-width:690px) {
+    .laser-tag-activities>*{
+        width: 240px;
+        height: 115px;
+    }
+    .laser-tag-activity .activity-img img {
+        height: 58%;
+    }
+}
+
+@media screen and (max-width:500px)  {
+    .city-blocks>*{
+         flex: 0 0 41%; 
+        max-width: 41%; 
+    }
+
+   
+}
+
+@media screen and (min-width:770px) and (max-width:1024px){
+    .custom-booking .form-block form>*:not(:last-child) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:591px) and (max-width:769px){
+    .custom-booking .form-block form>*:not(:last-child) {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .custom-booking .form-block form select{
+        height: 51px;
+    }
+}
+
+.city-block {
+    width: 114px;
+    height: 58px;
+}
+
+.showcase-masonary{margin:0 10px;}
+    .laser-legends .card-holder .card-laser h3 {font-family: 'Poppins'; color: #FFF;text-align: center;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal; padding-top: 6px;}
+.laser-legends .card-holder .card-laser p {color: #FFF;text-align: center;font-size: 16px;font-style: normal;font-weight: 400; line-height: normal; padding: 8px 13px 0;}
+.laser-showcase .heading-holder {padding-bottom: 24px;}
+.laser-showcase .heading-holder h2 {text-transform:uppercase;font-family: 'Poppins';color: #333;font-size: 35px;font-style: normal;font-weight: 600;line-height: 1.2;}
+.laser-showcase .showcase-masonary {-moz-column-count: 4;-moz-column-gap: 16px; -moz-column-width: 25%;-webkit-column-count: 4;
+-webkit-column-gap: 16px;-webkit-column-width: 25%;column-count: 4; column-gap: 16px; column-width: 25%;}
+.showcase-masonary .mason-box {background-color: #fff; display: flex;justify-content: center;align-items: center;margin-bottom: 16px;min-width: 256px;}
+.showcase-masonary .mason-box a { display: block; width: 100%; padding: 0;  margin: 0; height: 100%;}
+.showcase-masonary .one,.showcase-masonary .four { height: 295px;}
+.showcase-masonary .two,.showcase-masonary .three {height: 183px;}
+.showcase-masonary .five { height: 307px;}
+.showcase-masonary .six { height: 171px;}
+.showcase-masonary .seven {height: 132px;}
+.showcase-masonary .eight { height: 346px;}
+.showcase-masonary .mason-box img {height: 100%; width: 100%; object-fit: cover;}
+
+@media (max-width: 599px) {
+    .laser-showcase .showcase-masonary {-moz-column-count: 2;-moz-column-gap: 8px;-moz-column-width: 25%;-webkit-column-count: 2;-webkit-column-gap: 8px;-webkit-column-width: 25%;column-count: 2;column-gap: 8px;column-width: 25%;}
+  .showcase-masonary .mason-box {margin-bottom: 8px;min-width: 50%;}
+  .showcase-masonary .one,.showcase-masonary .four {height: 295px;}
+  .showcase-masonary .two,.showcase-masonary .three {height: 183px;}
+  .showcase-masonary .five {height: 307px;}
+  .showcase-masonary .six {height: 171px;}
+  .showcase-masonary .seven {height: 132px;}
+  .showcase-masonary .eight {height: 346px;}
+}
+
